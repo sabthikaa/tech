@@ -1,0 +1,373 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+       PRINCIPLES OF ORTHOPAEDICS
+    </a></style>
+    <ul >
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/compound">COMPOUND FRACTURE</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/closefracture">NON-UNION OF FRACTURE</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/compartment">COMPARTMENT SYNDROME</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/crush">CRUSH SYNDROME</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/fat">FAT EMBOLISM</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/myositis">MYOSITIS OSSIFICANS</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/pathological/">PATHOLOGICAL FRACTURE</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/stress">STRESS FRACTURE</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/nerveinjuries">CLASSIFICATION OF NERVE INJURIES</a></li>
+      
+
+    </ul>
+      
+  
+        
+
+
+  </div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+   <h2>Fat embolism</h2>
+ 
+   <p>A fat embolism is a type of embolism that is often caused by physical trauma such 
+   as fracture of long bones, soft tissue trauma and burns. Fat embolism occurs in 
+   about 90% of individuals with severe skeletal injuries. </p>
+   <h3>Common skeletal injuries causing fat embolism: </h3>
+   <p>• Fracture femur </p>
+    <p>• Fracture tibia </p>
+        <p>• Multiple fractures. </p>
+   <h2>Fat embolism syndrome (FES): </h2>
+   <div="img">
+        
+        
+   <center><img src="https://pbs.twimg.com/media/C02Xe-2XcAAVX93.jpg" width="300" height="300"></center>
+</div>
+   <p>It is distinct from the presence of fat emboli. Symptoms usually occur 1–3 days 
+   after a traumatic injury and consists of the following symptoms: </p>
+   <p>• Pulmonary: Shortness of breath, hypoxemia </p>
+    <p>• Neurological: Agitation, delirium, coma </p>
+        <p>• Dermatological: Petechial rash</p> 
+            <p>• Hematological: Anemia, thrombocytopenia. </p>
+   <h3>Pathogenesis: </h3>
+   <p>• The pathogenesis of fat emboli syndrome probably involves both 
+   mechanical obstruction and biochemical injury. </p>
+   <p>• Fat microemboli and associated RBC and platelet aggregates can occlude 
+   the pulmonary and cerebral microvasculature. </p>
+   <p>• Release of free fatty acids from the fat globules exacerbates the situation 
+   by causing local toxic injury to endothelium; and resultant platelet 
+   activation and granulocyte recruitment. </p>
+   <h3>Treatment: </h3>
+   <p>• Oxygen </p>
+    <p>• Heparinisation </p>
+        <p>• Low molecular weight dextran </p>
+            <p>• Ventilator support and ICU management.</p>
+
+
+            <h3>Risk factors</h3>
+<p>Some risk factors for fat embolism syndrome includeTrusted Source:
+
+young age,
+having closed fractures,
+having multiple fractures,
+Some conservative treatment, which does not involve surgery, for long bone fractures can also increase the likelihood of developing fat embolism syndrome. Casts and splints are examples of conservative treatment.
+
+Very rarely, other injuries, illnesses, or procedures may cause a fat embolism, such as:
+
+fatty liver disease,
+pancreatitis,
+bone marrow biopsy.</p>
+<h3>Can a fat embolism cause pulmonary embolism?</h3>
+<p>A pulmonary embolism occurs when a foreign object disruptsTrusted Source the flow of the blood traveling to the lungs. This can affect breathing and circulation and may even be fatal.
+
+A fat embolism can cause a pulmonary embolism. Even when it does not, a person may experience breathing difficulties similar to those accompanying a blockage in the pulmonary artery.
+
+In some casesTrusted Source, a pulmonary embolism may also occur at the same time as a fat embolism. This is because some of the risk factors for the two are similar.
+
+For example, a person who breaks a leg may suffer a fat embolism, then later develop a blood clot in the leg because they do not move around much due to their injury. The leg blood clot can then cause a pulmonary embolism.
+
+Learn more about pulmonary embolism risks after surgery here.</p>
+
+<h3>Signs and symptoms</h3>
+<p>Symptoms of fat embolism syndrome usually appearTrusted Source suddenly rather than slowly. They tend to develop 1–3 days after an injury.
+
+The most important warning signs are:
+
+sudden difficulty breathing,
+broken blood vessels that may look like a rash on the chest or face or around the eyes,
+confusion or other neurological symptoms,
+Some people have other warning signs, including:
+
+a rapid heart rate,
+thrombocytopenia, which is when a person has a low platelet count and may bleed more easily
+fat in the urine,
+fever,
+changes in the skin or eyes.</p>
+
+<h3>Diagnosis</h3>
+<p>Doctors have not establishedTrusted Source specific diagnostic criteria for a fat embolism. Instead, diagnosis depends on a person’s symptoms and laboratory tests, as well as tests to rule out other issues.
+
+A doctor may monitor blood oxygen, because drops in blood oxygen may indicate a fat embolism.
+Some other tests a doctor may recommend include:
+
+imagining scans of the chest,
+blood work,
+examination of the urine,
+scans of the brain and head.</p>
+
+
+<h3>Outlook</h3>
+<p>Most people with a fat embolism have no symptoms. Among those who do, the outlook is generally good as long as they are able to receive supportive care in a hospital.
+
+For a small number of people, fat embolism syndrome is fatal. Precise estimates of the death rate vary, ranging from 7 to 10%Trusted Source.
+
+Some people with fat embolism syndrome temporarily develop serious complications, such as respiratory distress. Even when people experience these severe symptoms, the condition usually does not causeTrusted Source death.
+
+The following factors could increase the risk of worse outcomes for people with fat embolism syndrome:
+
+older age,
+underlying medical conditions,
+the inability of a person’s organs to function under stress.</p>
+
+<h3>Prevention</h3>
+<p>There is no specific treatment for a fat embolism. That is why prevention can reduce the length of hospital stays and lower the risk of complications and death.
+
+Some preventative strategies includeTrusted Source:
+
+blood oxygen monitoring to help detect a fat embolism early, before symptoms become severe,
+administering early, aggressive treatment for long bone fractures,
+giving fluids to people who experience serious fractures,
+giving the drug methylprednisolone to people at a higher risk of developing fat embolisms.</p>
+   
+        {% endblock %}

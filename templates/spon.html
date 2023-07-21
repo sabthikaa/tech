@@ -1,0 +1,346 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            SPINE AND VERTEBRA
+        </a></style>
+ <ul>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/slipp"> Slipped Disc</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/spon">Spondylolisthesis</a></li>
+
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/clinical">Clinical Feature Of TB Spine</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/gibbus">Gibbus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/bifida">Spine Bifida</a></li>
+    
+  
+                              </ul>
+  
+        
+  
+         
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+ <h2> Spondylolisthesis</h2>
+ <div="img">
+        
+        
+ <center><img src="https://tse3.mm.bing.net/th?id=OIP.4b7ZSFUjYgIpmpc_An4_cAHaEK&pid=Api&P=0&h=180" width="300" height="300"></center>
+</div>
+<p>Spondylolisthesis is defined as forward displacement of a vertebra over the one 
+below it.Spondylolisthesis is the slippage of one vertebral body with respect to the adjacent vertebral body causing mechanical or radicular symptoms or pain. It can be due to congenital, acquired, or idiopathic causes. Spondylolisthesis is graded based on the degree of slippage (Meyerding Classification) of one vertebral body on the adjacent vertebral body. </p>
+<p>Common site: 
+ Between L4 and L5 
+ Between L5 and S1. </p>
+
+<h3>Relevant anatomy: </h3>
+<p>Normally, forward displacement of a vertebral body is prevented by: </p>
+<p>1. Engagement of its articular processes with that of the vertebra below it 
+(most contribution)  </p>
+<p>2. Intervertebral disc and ligaments (less contribution). 
+- Any disturbance in these mechanisms may lead to spondylolisthesis.</p>
+
+<h3>Types: </h3>
+<p>There are 6 types of spondylolisthesis: </p>
+<p>1. Lytic/ isthmic type (50%): </p>
+  <p> This is the commonest variety.  </p>
+    <p> There is either a defect in pars interarticularis (part of the vertebra 
+bridging the superior and inferior articular facets) or elongation of the 
+pars  </p>
+<p> The defect allows the separation of the two halves of the vertebra 
+(anterior and posterior).  </p>
+<p>2. Degenerative (25%):
+  <p> Common in elderly people  </p>
+  <p> The posterior facet joints becomes unstable because of osteoarthritis, 
+permitting forward slip.  </p>
+<p>3. Dysplastic (20%):
+   The superior sacral facets are congenitally defective, leading to slow but 
+severe displacement  </p>
+<p> Associated anomalies (usually spina bifida occulta) are common.  </p>
+
+  <p>4. Post-traumatic:
+Unusual fractures may result in destabilization of the lumbar spine.  </p>
+<p>5. Pathological:
+Bone destruction (due to TB or neoplasm) may lead to vertebral slipping.  </p>
+<p>6. Iatrogenic:
+Excessive operative removal of bone in decompression operations may 
+result in progressive spondylolisthesis.  </p>
+
+<h3>Clinical features: </h3>
+<p> Age of presentation:  </p>
+  <p>- Isthmic variety: Adolescents and young adults </p> 
+    <p>- Degenerative variety: Elderly people.  </p>
+      <p> Principle symptom is back pain ± sciatica.  </p>
+        <p> Symptoms become worse on standing or walking.  </p>
+          <p> On examination, following signs may be detected:  </p>
+              <p>- Hamstring tightness (as evidenced by SLRT)  </p>
+                <p>- Increased lumbar lordosis. </p> 
+             
+
+<h3>Diagnosis: </h3>
+<p> Diagnosis is confirmed by X-Ray.  </p>
+  <p> Lateral view shows the forward shift of the upper part of the spinal column 
+on the stable vertebra below.  </p>
+<p> Oblique view shows defect in pars 
+interarticularis.  </p>
+
+
+
+
+<h3>Classification</h3>
+<p>
+  There are different classification systems regarding the etiology, terminology, subtypes of spondylolysis and spondylolisthesis, and treatment.
+  A. Wiltse Classification [4] is one of the most commonly used classification systems to convey the etiology of spondylolisthesis (see table below). It has five major etiologies: degenerative, isthmic, traumatic, dysplastic, or pathologic.
+  
+  Scottie dog .png[5]
+  <p>Dysplastic spondylolisthesis (Type 1) is congenital and secondary to variation in the orientation of the facet joints to an abnormal alignment.  In dysplastic spondylolisthesis, the facet joints are more sagittally oriented than the typical coronal orientation.
+  </p>
+    <p>Isthmic spondylolisthesis results from defects in the pars interarticularis. The cause of isthmic spondylolisthesis is undetermined, but a possible etiology includes microtrauma in adolescence related to sports such as wrestling, football, and gymnastics, where repeated lumbar extension occurs. Type II is isthmic and is separated into Type IIA and Type IIB. Type IIA is caused by a stress fracture of the pars interarticularis (spondylolysis) that results in anterior slippage of the vertebrae. Type II B is caused by repetitive fractures and subsequent healing which results in lengthening of the pars interarticularis leading to anterior slippage of the vertebrae.[4]
+  
+    </p>  
+    <p>  Degenerative spondylolisthesis (Type 3) occurs from degenerative changes in the spine without any defect in the pars interarticularis. It is usually related to combined facet joint and disc degeneration leading to instability and forward movement of one vertebral body relative to the adjacent vertebral body. Arthritis of facet joint which in turn causes weakness of ligamentum flavum leads to anterior slippage of vertebra.
+    </p>
+    
+      <p>Traumatic spondylolisthesis (Type 4)occurs after fractures of the pars interarticularis or the facet joint structure and is most common after trauma.
+  </p>
+    <p>Pathologic spondylolisthesis (Type 5) can be from systemic causes such as bone or connective tissue disorders or a focal process, including infection, neoplasm.
+    </p>
+      <p>Iatrogenic spondylolisthesis (Type 6) is a potential sequela of spinal surgery. Frequently, these patients will have undergone prior laminectomy</p>
+  </p>
+    </body>
+{% endblock %}

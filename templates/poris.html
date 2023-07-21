@@ -1,0 +1,421 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            BONE AND JOINTS
+        </a></style>
+ 
+  <ul >
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/pyogenic">Pyogenic Osteomyelitis</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/ring">Ring sequestrum</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/brodie">Brodie's Adscess</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/tb">TB Hip Joint</a></li>   
+  </ul>
+
+
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line:height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h2>Osteoporosis</h2>
+    <h3>What are the symptoms of osteoporosis?</h3>
+    <p>Osteoporosis is often called the silent disease because it may not cause symptoms. Some patients experience:
+    
+    Broken bones (mainly hips, spine or wrists), even from minor falls or bumps,
+    
+    Collapsed vertebrae — leading to severe pain, a decrease in height or a spine deformity,
+    
+    Such symptoms can also come from other bone disorders or medical problems. Always consult your doctor for a diagnosis.</p>
+    
+    <h3>What are the risk factors for osteoporosis?</h3>
+    <p>Several factors appear to increase the risk of developing the disease:
+    
+    Age. Risk increases after 50,
+    
+    Gender. Women are 4 times more likely to develop osteoporosis,
+    
+    Race. The disease can affect anyone, but white and Asian women are most at risk,
+    
+    Menopause. Estrogen deficiency causes bone loss,
+    
+    Family history of osteoporosis or fractures,
+    
+    Low body weight, or being small and thin,
+    
+    Not getting enough calcium or vitamin D,
+    
+    Not eating enough fruits and vegetables for other nutrients (magnesium, potassium, vitamins C and K),
+    
+    Not getting enough protein,
+    
+    Consuming too much alcohol, sodium or caffeine,
+    
+    Having an inactive lifestyle,
+    
+    Smoking,
+    
+    Certain medications (prednisone, e.g.) and diseases can also cause bone loss and increase the risk of osteoporosis.</p>
+    
+    <h3>How is osteoporosis prevented?</h3>
+    <p>To protect their skeleton, men and women of all ages should ensure they are:
+    
+    Consuming adequate amounts of calcium and vitamin D.
+    
+    Following national nutritional guidelines for protein, fruit and vegetable intakes.
+    
+    Increasing weight-bearing activity,
+    
+    Limiting alcohol intake to moderate use or less,
+    
+    Stopping smoking if you smoke,
+    
+    If you’re a woman who has gone through menopause or a man older than age 50, your doctor should follow National Osteoporosis Foundation guidelines and:
+    
+    Talk to you about your risk of osteoporosis and related fractures.
+
+    Recommend a diet rich in fruits and vegetables that includes adequate vitamin D and calcium, with supplements prescribed as necessary
+    
+    Recommend regular weight-bearing and muscle-strengthening exercises.
+    
+    Assess fall risk and offer appropriate preventions.
+    
+    Ask whether you smoke and how much alcohol you drink.
+    
+    Measure your height each year.</p>
+    
+    <h3>Osteoporosis Diagnosis</h3>
+    <p>A bone density test (also called bone densitometry or DXA) involves a special X-ray machine and is the only way for doctors to determine whether you have osteoporosis. Such scans are recommended for:
+    
+    All women 65 and older,
+    
+    All men 70 and older,
+    
+    Certain postmenopausal women, depending on risk factors,
+    
+    Certain men ages 50-69, depending on risk factors,
+    
+    Certain patients who have fractured a bone, depending on their background,
+    
+    Individuals on medications or with medical conditions that can affect bone density,
+    
+    Bone density tests can also identify patients with osteopenia — decreased bone mass that has not yet reached the level of osteoporosis. Ask your doctor if you should get tested.
+    
+    Other tools and tests include:
+    
+    FRAX score. combines your bone density test with other factors to estimate your risk of a fracture within the next 10 years,
+    
+    Personal and family medical history,
+    
+    Physical examination,
+    
+    Additional scans with other machines,
+    
+    Blood and urine tests.</p>
+    
+    <h3>Osteoporosis Treatment</h3>
+    <p>Early treatment of osteoporosis and osteopenia can ease pain, limit or halt bone loss, and prevent fractures. Appropriate treatment can also help fracture patients avoid another injury. Our doctors recommend treatments based on:
+    
+    Your age, overall health and medical history
+    
+    Your gender.
+    
+    The extent of the disease and your anticipated rate of bone loss.
+    
+    Your tolerance for specific medications, procedures or therapies.
+    
+    Your opinion or preference.
+    
+    Many osteoporosis treatment tools are similar to prevention methods, such as recommending changes to diet and lifestyle.
+    
+    The FDA has also approved a number of injections, IV infusions, tablets, nasal sprays and patches — all shown to reduce fractures in randomized studies. Make sure to discuss possible side effects with your doctor.</p>
+    
+   <h3> Parathyroid Hormone </h3>
+    <p>Side effects: Possible calcium increases in the blood and urine and reactions at the injection site like itching and redness.
+    </p>
+    <p>Drug: Teriparatide (a form of parathyroid hormone)</p>
+    <p>Use: Treats postmenopausal women and men who are at high risk for fractures</p>
+    <p>Form: Daily injection administered by the patient at home</p>
+    
+   <p> Estrogen
+    <p>Side effects: Risks vs. benefits should be discussed with a doctor. Typically used for a short period of time earlier in menopause, due to long-term risks of breast cancer and blood clots.</p>
+    
+    <p>Drugs: Estrogen Therapy (ET) and Hormone Therapy (HT)</p>
+        <p>Use: Increases bone density in the spine and hip and decreases fractures at both sites. Typically used for prevention in postmenopausal women.</p>
+            <p>Form: Commonly available as tablets or skin patches</p>
+    
+                <p>Bisphosphonates</p>
+                    <p>Side effects: Oral bisphosphonates can cause upper stomach issues like heartburn. Patients can get flu-like symptoms after the first dose of intravenous bisphosphonates. With all bisphosphonates, there are rare side effects: Difficulty healing after dental work like a root canal or implant that involves the jaw bone (approximately 1 in 50,000 patients), and stress fractures after long term, continuous use (approximately 1 in 75,000 patients). Most doctors will prescribe these medications for 5-8 years, then consider taking their patients off the treatment as fracture risk remains low even after stopping the medication. After stopping the medication, bone density and blood testing annually can help determine when and if more medication would be helpful.</p>
+    
+                        <p>Drug: Alendronate Sodium</p>
+                            <p>Use: Prevents and treats osteoporosis in postmenopausal women and treats the disease in men, while reducing the risk of spine, hip and other broken bones</p>
+                                <p>Form: Weekly pill</p>
+    
+                                    <p>Drug: Risedronate Sodium</p>
+                                        <p>Use: Prevents and treats osteoporosis in postmenopausal women and treats the disease in men, while reducing the risk of spine and hip fractures</p>
+                                            <p>Form: Weekly or monthly pill</p>
+    
+                                                <p>Drug: Ibandronate Sodium</p>
+                                                    <p>Use: Prevents and treats osteoporosis in postmenopausal women and reduces the risk for spine fractures</p>
+                                                        <p>Form: Monthly pill or IV infusion every 3 months</p>
+    
+                                                            <p>Drug: Zoledronic Acid</p>
+                                                                <p>Use: Prevents and treats osteoporosis in postmenopausal women, treats the disease in men and prevents additional broken bones for fracture patients with low bone density. It reduces the risk of fractures of the hips, spine and other areas like the wrists and arms.</p>
+                                                                    <p>Form: Annual IV infusion</p>
+    
+                                                                        <p>Selective Estrogen Receptor Modulators</p>
+                                                                            <p>Side effects: Possible hot flashes and a small increased risk of blood clots</p>
+    
+                                                                                <p>Drug: Raloxifene</p>
+                                                                                    <p>Use: Prevents and treats osteoporosis in postmenopausal women while reducing the risk of spinal fractures</p>
+                                                                                        <p>Form: Daily pill</p>
+    
+                                                                                            <p>Calcitonin</p>
+                                                                                                <p>Side effects: Approximately 6 percent of patients will have some mild nose irritation. The FDA reviewed the medication in 2013 because there may be a 1 percent increase in skin cancers. The agency determined it should remain available, but you should discuss the risks and benefits with your doctor.</p>
+    
+                                                                                                    <p>Drug: Calcitonin-Salmon</p>
+                                                                                                        <p>Use: Treats osteoporosis in women who are at least 5 years past menopause and reduces the risk of spine fractures.</p>
+                                                                                                            <p>Form: Nasal spray or injection</p>
+    
+                                                                                                                <p>RANK-Ligand Inhibitor</p>
+                                                                                                                    <p>Side effects: Possible skin changes like rashes and eczema and a small increased risk of infection</p>
+    
+                                                                                                                        <p>Drug: Denosumab</p>
+                                                                                               
+                                                                                                <p>Use: It reduces the risk of broken bones in the spine, hips and other areas for high-risk men and postmenopausal women with osteoporosis. It also prevents bone loss during some breast and prostate cancer treatments.</p>
+                                                                                                                                <p>Form: Injected by a doctor every six months</p>
+
+</body>
+{% endblock %}

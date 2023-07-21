@@ -1,0 +1,344 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    
+      <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        UPPER LIMB
+    </a></style>
+
+<ul >
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann's ischaemic Contracture</a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+fracture-dislocation </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+    condylar fracture of Humerus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+          contracture </a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+              finger</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                  syndrome</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                    shoulder</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                      disease </a></li>  
+    
+                              </ul>
+
+    
+  
+   
+  
+        
+  
+ 
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+<h2>Frozen shoulder</h2>
+<div="img">
+        
+        
+<center><img src="https://2.bp.blogspot.com/-pY8BvTYio38/WlJTTZTp48I/AAAAAAAABfg/LIHV1Y3PH8Y_BVIuGTtyqyUS3a94GZiUwCLcBGAs/s1600/frozen-shoulder.jpg" width="300" height="300"></center>
+</div>
+<p>Frozen shoulder, also called adhesive capsulitis, involves stiffness and pain in the shoulder joint. Signs and symptoms typically begin slowly, then get worse. Over time, symptoms get better, usually within 1 to 3 years.
+
+  Having to keep a shoulder still for a long period increases the risk of developing frozen shoulder. This might happen after having surgery or breaking an arm.
+  
+  Treatment for frozen shoulder involves range-of-motion exercises. Sometimes treatment involves corticosteroids and numbing medications injected into the joint. Rarely, arthroscopic surgery is needed to loosen the joint capsule so that it can move more freely.
+  
+  It's unusual for frozen shoulder to recur in the same shoulder. But some people can develop it in the other shoulder, usually within five years.</p>
+<p>It is a well-defined disorder characterized by progressive pain and stiffness of the 
+shoulder which usually resolves spontaneously after about 18 months. </p>
+<p>Associated conditions: 
+The disease is commoner in diabetics. </p>
+<h2>Clinical features: </h2>
+<p>1. The patient, aged 40-60, may give a history of trauma, often trivial, 
+followed by pain in the arm and shoulder. Pain gradually increases in 
+severity and often prevents sleeping on the affected side. </p>
+<p>2. After several months it begins to subside, but as it does so stiffness
+becomes an increasing problem, continuing for another 6-12 months after 
+pain has disappeared. </p>
+<p>3. Gradually movement is regained, but it may not return to normal and some 
+pain may persist.</p> 
+
+<h2>Examination: </h2>
+<p>Apart from slight wasting, the shoulder looks quite normal; tenderness is seldom 
+marked. The cardinal feature is a stubborn lack of active and passive movement in 
+all directions. </p>
+<h2>Diagnosis: </h2>
+<p>The diagnosis of frozen shoulder is clinical, resting on 2 characteristic features: </p>
+<p>1. Painful restriction of movement in the presence of normal X-Rays;</p>
+<p>2. A natural progression through three successive phases (pain, stiffness and 
+regaining of movements). </p>
+<h2>Treatment: </h2>
+<p>Conservative treatment </p>
+<p> Analgesics and anti-inflammatory drugs to relieve pain </p>
+<p> Reassure the patient </p>
+<p> Exercise: ‘egular ͚pendulum’ exercise is encouraged where the patient  
+leans forward at the hips and moves his arm like a pendulum </p>
+<p> Manipulation under general anesthesia </p>
+<p> Injecting a large volume of sterile saline into the joint under pressure. 
+Surgical treatment </p>
+<p> Arthroscopic capsular release: Indicated only in prolonged and disabling 
+restriction of movement which fails to respond to conservative treatment.</p>
+
+
+<p>Prevention
+  One of the most common causes of frozen shoulder is not moving a shoulder while recovering from a shoulder injury, broken arm or stroke. If you've had an injury that makes it difficult to move your shoulder, talk to your health care provider about exercises that can help you maintain your ability to move your shoulder joint.</p>
+<p>Causes
+  The shoulder joint is enclosed in a capsule of connective tissue. Frozen shoulder occurs when this capsule thickens and tightens around the shoulder joint, restricting its movement.
+  
+  It's unclear why this happens to some people. But it's more likely to happen after keeping a shoulder still for a long period, such as after surgery or an arm fracture.</p>
+
+
+<p>Symptoms
+  Frozen shoulder typically develops slowly in three stages.
+  
+  Freezing stage. Any movement of the shoulder causes pain, and the shoulder's ability to move becomes limited. This stage lasts from 2 to 9 months.
+  Frozen stage. Pain might lessen during this stage. However, the shoulder becomes stiffer. Using it becomes more difficult. This stage lasts from 4 to 12 months.
+  Thawing stage. The shoulder's ability to move begins to improve. This stage lasts from 5 to 24 months.
+  For some people, the pain worsens at night, sometimes disrupting sleep.</p>
+</body>
+{% endblock %}

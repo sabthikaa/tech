@@ -1,0 +1,322 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+       BONE CYSTS AND TUMOURS
+    </a></style>
+    <ul >
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/osteo">Osteochondroma/ Exostosis</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/radio">Radiological features of osteosarcoma</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/manage"> Management of osteosarcoma</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/giant"> Giant cell tumor </a></li>
+    </ul>
+      
+  
+        
+  
+     
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+<h2>  Management of osteosarcoma</h2>
+<div="img">
+        
+        
+<center><img src="https://www.boldbusiness.com/wp-content/uploads/2018/11/osteosarcoma-treatment-1024x569.jpg" width="300" height="300"></center>
+</div>
+<p>Line of management: </p>
+<p>1. Low grade osteosarcoma: Treated by surgery alone </p>
+  <p>2. High grade osteosarcoma: Neo-adjuvant chemotherapy -> Surgery -> 
+Adjuvant chemotherapy. </p>
+<h3>Chemotherapy </h3>
+<p> Introduction of systemic chemotherapy has dramatically improved survival 
+rates. </p>
+<p> Before the routine use of chemotherapy, treatment was immediate wide or 
+radical amputation and 80% patients died of metastasis eventually, though 
+metastasis was not evident on presentation. </p>
+<p> Chemotherapy used in osteosarcoma are of 2 types: </p>
+  <p>a. Neo-adjuvant chemotherapy: Administered before the surgical 
+resection of primary tumour </p>
+<p>b. Adjuvant chemotherapy: Administered postoperatively to treat 
+presumed micro-metastasis. </p>
+<p> Chemotherapeutic agents commonly used are: Cisplatin (most successful 
+agent), Cyclophosphamide, Doxorubicin, Decarbazine, Dactinomycin, 
+Vincristine, Methotrexate. </p>
+<p> After induction of chemotherapy (lasting about 2 months) surgical resection 
+is to be carried out. Surgery is contemplated 3-4 weeks after last dose of 
+chemotherapeutic agent. Adjuvant chemotherapy again started 2 weeks 
+after operation. </p>
+<h3>Surgery</h3> 
+<p> Surgery is the mainstay of treatment.</p> 
+  <p> There are 2 options: Limb salvage surgery and Amputation. Choice between 
+these 2 entities must be made on the basis of the expectations and desires 
+of the individual patient and the family. </p>
+
+<p> Limb salvage surgery has become an accepted standard of care for patients 
+with skeletal malignancies including osteosarcoma. </p>
+<h3>Important Guidelines to be followed during surgery: </h3>
+  <p> Wide resection of affected bone with a normal muscle cuff all around </p>
+    <p> En-block removal of all biopsy sites & contaminated tissue </p>
+      <p> Resection of bone 3-4 cm beyond abnormal uptake </p>
+        <p> Resection of adjoining joint & capsule. </p>
+          <p> Adequate motor reconstruction </p>
+            <p> Adequate soft tissue coverage.</p> 
+              <h3> Commonly used surgical techniques: </h3>
+                <p>I. Bone grafting</p> 
+                  <p>II. Rotationplasty </p>
+                    <p>III. Resection/ Arthrodesis</p> 
+                      <p>IV. Prosthesis. </p>
+<h3>Special Note: Radiotherapy in osteosarcoma:</h3> 
+<p> Role of radiotherapy is limited in the treatment of osteosarcoma as it is a 
+relatively radioresistant tumor. </p>
+<p> Indications of radiotherapy: </p>
+  <p>I. Postoperative: When surgical margins are involved </p>
+    <p>II. Inoperable sites: Skull, vertebral, ilium, sacrum </p>
+      <p>III. Palliation of pain in metastatic disease </p>
+        <p>IV. Bilateral lung irradiation in case of pulmonary metastasis.</p>
+        <p>Advances in imaging
+          Imaging of bone sarcomas was revolutionized by magnetic resonance imaging (MRI), which, for the first time, allowed detailed assessment of tumor extent within the bone marrow cavity and into soft tissues, as well as its relation to surrounding structures such as joints, nerves, and vessels. In addition, MRI may also be used to predict histologic tumor response to preoperative chemotherapy, as may positron emission tomography (PET)/computed tomography (CT), sequential bone scans, and others. PET/MRI has entered the scene more recently 14, and its role remains to be defined. The importance of accurate imaging at initial diagnosis and after preoperative chemotherapy, however, cannot be overstated. A detailed review of local imaging would be beyond the scope of this article and the reader is referred to the recent literature</p>
+<p>Advances in biopsy techniques
+  Osteosarcoma must be confirmed histopathologically before initiating tumor-directed therapy. Biopsies were traditionally performed via incisional procedures. Even though scientists may lament a paucity of tissue for research, less invasive core needle biopsies (CNBs) are now assuming an ever-increasing role. These have been shown to be very effective as long as adequate cores can be sampled. A French analysis of CNB in 73 osteosarcomas reported an overall sensitivity of 93.1%, specificity of 100%, and positive and negative predictive values of 100% and 99.9%, respectively, as long as the specimen was adequate 26. CNB does not seem to be nearly as reliable in telangiectatic osteosarcoma: in one series, nine of 26 were misdiagnosed as aneurysmal bone cysts</p>
+<p>Advances in local therapy of operable osteosarcoma
+  Surgery with wide margins 28 remains the mainstay of curative local therapy. Spurred by major advances of imaging and of surgical reconstruction opportunities, recent years have witnessed a major shift from amputations towards limb-saving procedures 29. Limb-salvage, however, poses challenges, particularly in growing individuals. Earlier models of expandable endoprostheses required additional surgery for every lengthening. Various non-invasive lengthening mechanisms are now available, including incorporated engines or magnetic devices 30. However, these are still associated with frequent complications and needs for revisions 31– 33. Several papers emphasize that further technical advances are direly needed: in one series, 10 patients experienced 37 implant-related complications 31, and in another, 42% of 38 patients experienced complications, including 10 prosthesis revisions and two amputations 34. A third reported an average 2.5 revisions for complications in 71 patients 32; a fourth even questioned whether complications associated with a particular, rather popular, expandable prosthesis were acceptable for its continued use 33. Given that such devices are obviously still immature, one might look back to the bygone age of rotationplasties with (never expected) nostalgia. Their function remains quite good even with long observation periods. A recent Italian series evaluated 25 patients living with rotationplasties for a mean of 15 years 35. While arthritis of the tibiotalar, subtalar, and talonavicular joints was radiographically present in most, they showed improved gait parameters as adults compared with previously reported findings for children with rotationplasty</p>      
+
+<p>Advances in local treatment of inoperable osteosarcomas
+  Any osteosarcoma that can be operated on should be operated on to maximize the chance for local control and hence survival. However, not all osteosarcomas are operable. Several series have confirmed that selected patients may achieve permanent local control with radiotherapy, particularly if this is combined with effective chemotherapy and gross total resection 36, 37. Results of a meta-analysis suggest that debulking may no longer be required when radiation doses of 70 Gy or higher are administered. Local control probabilities after radiotherapy were lower for craniofacial osteosarcomas than for those of other sites.</p>
+
+</body>
+{% endblock %}

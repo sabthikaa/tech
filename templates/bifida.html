@@ -1,0 +1,343 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            SPINE AND VERTEBRA
+        </a></style>
+ <ul>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/slipp"> Slipped Disc</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/spon">Spondylolisthesis</a></li>
+
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/clinical">Clinical Feature Of TB Spine</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/gibbus">Gibbus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/bifida">Spine Bifida</a></li>
+    
+  
+                              </ul>
+  
+        
+  
+         
+
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color:white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+  <h2>Spina bifida</h2>
+  <div="img">
+        
+        
+  <center><img src="https://tse1.mm.bing.net/th?id=OIP.dCiy1SWXTlPSjU3ddXqZ3wHaF1&pid=Api&P=0&h=180" width="300" height="300"></center>
+</div>
+<p>Spina bifida is a congenital disorder where two halves of the posterior vertebral 
+arch fail to fuse at one or more levels. Spina bifida is a birth defect that occurs when the spine and spinal cord don't form properly. It's a type of neural tube defect. The neural tube is the structure in a developing embryo that eventually becomes the baby's brain, spinal cord and the tissues that enclose them.
+
+Typically, the neural tube forms early in pregnancy and it closes by the 28th day after conception. In babies with spina bifida, a portion of the neural tube doesn't close or develop properly, causing problems in the spinal cord and in the bones of the spine.
+
+Spina bifida can range from mild to severe, depending on the type of defect, size, location and complications. </p>
+<h3>Developmental background: </h3>
+<p> The vertebral bodies develop from the mesoderm around the notochord. </p>
+<p> From the centre of each body extend two projections which grow around 
+the neural canal to form the vertebral arch. </p>
+<p> The two halves of the arch fuse in the thoracic region, from where the 
+fusion extends up and down. </p>
+<p> Failure of fusion of these arches gives rise to spina bifida. It is often 
+associated with mal-development of the spinal cord and the membranes.</p> 
+<h3>Types: </h3>
+<p>According to the severity of lesion, spina bifida is of two types: </p>
+<p>a. Spina bifida occulta. </p>
+<p>b. Spina bifida cystica. </p>
+
+<h3>Spina bifida occulta: </h3>
+<p> It is the mildest and commonest form of spina bifida. 
+ In most cases, there is only a midline defect between the 
+laminae. Most cases are discovered incidentally on spine X 
+Rays (defect lies commonly at L5 level). 
+ When several vertebrae are involved, some tell-tale defects 
+in the overlying skin may be seen. Ex.: a dimple, a pit, a tuft 
+of hair. </p>
+ <h3>Spina bifida cystica:</h3>
+ <p> It is the severe form of spina bifida.</p>
+<p> Here vertebral laminae are missing and the contents of the vertebral canal 
+prolapse through the defect. </p>
+<p>The abnormality takes one of several forms discussed below: </p>
+<p>a. Meningocele: </p>
+<p> It is the least serious abnormality.</p>
+<p> Here the dura matter is open posteriorly but the 
+meninges are intact and a CSF-filled meningeal sac 
+protrudes under the skin. </p>
+<p> The spinal cord and nerve roots remain inside the 
+vertebral canal and there is usually no neurological 
+abnormality. </p>
+<p>b. Myelomeningocele: </p>
+<p> It is the most common and most serious abnormality. </p>
+<p> It usually occurs in the lower thoracic spine or the lumbosacral 
+region. </p>
+<p> Part of the spinal cord and nerve roots prolapse into the 
+meningeal sac. </p>
+<p> In some cases the neural tube is fully formed and the sac is 
+covered by a membrane and/or skin: a ͚closed
+myelomeningocele. </p>
+
+<p> In others the cord is in a more primitive state, the unfolded neural 
+plate forming the roof of the sac: an ͚open myelomeningocele. It 
+is always associated with a neurological deficit distal to the level 
+of the lesion.</p> 
+<p> If neural tissue is exposed to the air, it may become infected, 
+leading to more severe abnormality and even death. </p>
+<p>Clinical features: </p>
+<p>In spina bifida occulta: </p>
+  <p> Normal people.</p> 
+    <p> A posterior midline dimple. </p>
+      <p> A tuft of hair. </p>
+        <p> A pigmented nevus. </p>
+          <p> Children may present with mild neurological symptoms: enuresis, urinary 
+frequency or intermittent incontinence; neurological examination may 
+reveal weakness and some loss of sensibility in the lower limbs. </p>
+<p>In spina bifida cystica: </p>
+  <p> A saccular lesion is present at birth overlying the lumber spine, often 
+covered by membrane +/- skin.</p> 
+<p> There is almost always some sort of neurological deficits like: </p>
+<p> Equinovarus or calcaneovalgus of the feet</p>
+<p> Recurvatum of the knee.</p>
+<p>Investigations: </p>
+<p>1. X-Ray and CT scan: Extent of bony lesion and other vertebral anomalies. </p>
+<p>2. MRI: Assessment of neurological deficits.</p>
+</body>
+{% endblock %}

@@ -1,0 +1,322 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    
+      <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        UPPER LIMB
+    </a></style>
+
+<ul >
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann's ischaemic Contracture</a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+fracture-dislocation </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+    condylar fracture of Humerus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+          contracture </a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+              finger</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                  syndrome</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                    shoulder</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                      disease </a></li>  
+    
+                              </ul>
+
+    
+  
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+
+</style>
+<body>
+  <h2>Supracondylar fracture of humerus</h2>
+  <div="img">
+        
+        
+   <center><img src="https://tse2.mm.bing.net/th?id=OIP.aR4uWwnv8ghkhp5Zmrk8mgHaHa&pid=Api&P=0&h=180" width="300" height="300"></center>
+</div>
+<p>The Supracondylar fracture of the humerus is a fracture of the distal end of the humerus just above the elbow joint. The transverse section of the shaft of the humerus is somewhat circular in shape which gets more flattered as it descends down to meet the distal end of the humerus.
+
+  The distal end of humerus comprises of both articular and non-articular structures. Non- articular structure comprises of the medial epicondyle, lateral epicondyle, anterior coronoid and radial fossa and posterior olecranon fossa.Whereas articular structure includes the lateral capitulum articulating with radial head and the medial trochlea articulates with the ulna.
+  
+  The medial epicondyle is the site for the common origin of flexor musculature of the forearm and the ulnar nerve runs in a groove on the back of this epicondyle. The lateral epicondyle is the site for the common origin of extensor musculature of the forearm. These muscles attachment are responsible for the displacement and rotation of the distal fragment. In the anterior aspect of distal humerus allow the passage of the brachial artery and median nerve.The brachial artery which commonly gets involved in supracondylar fracture of humerus lies along the anteromedial aspect of the distal humerus just superficial to the brachialis muscle. The radial nerve runs between the brachialis and brachioradialis muscles before crossing the elbow and penetrating the supinator muscle</p>
+<p>This is one of the most serious fractures in childhood as it is often associated with 
+complications. </p> 
+<h3>Mechanism: </h3> 
+  <p> Fall on outstretched hand  </p>
+    <p> As the hand strikes the ground, the elbow is forced into hyperextension
+resulting in fracture of the humerus above the condyles  </p>
+<p> The fracture line extends transversely through the distal metaphysis of 
+humerus just above the condyles.  </p>
+<h3>Types: </h3>
+<p>Depending upon the displacement of the distal fragment, supracondylar fracture 
+may be of 2 types:  </p>
+<p>A. Extension type (80%): The distal fragment is extended (tilted backwards) in 
+relation to the proximal fragment.  </p>
+<p>B. Flexion type (20%): The distal fragment is flexed (tilted forwards) in relation 
+to the proximal fragment.  </p>
+<p>Epidemiology
+  Supracondylar fractures of the humerus are the most frequent fractures of the pediatric humerus, with the median age being 6 years and a peak incidence at the ages of five to eight years.
+  It is the second most common bony injury in the pediatric population.
+  It accounts for 55% to 80% of total elbow fractures in children and up to two-thirds of pediatric elbow injuries requiring hospitalization.
+  Their incidence has been estimated at 177.3 per 100 000.
+  Higher incidence of supracondylar fractures is in boys, affecting the non-dominant arm 1.5 times more frequently.
+  About 10% to 20% of displaced supracondylar fractures present with alterations in vascular status. In most cases, fracture reduction restores perfusion.
+  Neural injuries occur in 6.5% to 19% of cases involving displaced fractures. Most of them are neurapraxias. </p>
+  <p>Complications of supracondylar fracture
+    Immediate complications are associated with neurovascular involvement including
+    
+    Vascular insufficiency / pink pulseless hand- involvement of the brachial artery is most commonly associated with Type II and III supracondylar fractures, frequently encountered in posterolaterally displaced fracture.
+    Compartment syndrome: It can occur in 0.1% to 0.3% of cases.Associated forearm fractures and elbow flexion > 90° increase compartment pressures. To minimize the risk of compartment syndrome, the elbow should be immobilized in about 30° of flexion in the emergency room and 60° to 70° of after surgery.
+    Neurologic deficit-10 to 20 percent of supracondylar fracture and mainly associated with Type III supracondylar fractures
+    Open or associated forearm fractures
+    Long term complications in Pediptric population is due to the fact that bones in this age group have an enormous growth as well as remodelling ability. So that long term functional outcome and radiological appearance of a fracture may be quiet different than that of immediate post-management status.
+    
+    Cubitus varus deformity: It occurs due to the malunion and also known as "gunstock” deformity. Posttraumatic cubitus varus deformity has important problems, which are associated with tardy ulnar nerve palsy, tardy Postero-Lateral Rotatory Instability (PLRI), shift of the medial head of the triceps and secondary distal humeral fractures. Modern surgical techniques (e.g., closed reduction with percutaneous pinning) have reduced its frequency from 58 percent to approximately 3 percent in children treated for supracondylar fractures. Humeral osteotomy is used to correct this deformity and to avoid such later complications.
+    Volkmann’s ischemic contracture: If compartment syndrome is not treated timely, the associated ischemia may progress to infarction and subsequent development of Volkmann's ischemic contracture: fixed flexion of the elbow, pronation of the forearm, flexion at the wrist, and joint extension of the metacarpal-phalangeal joint.</p>
+</body>
+{% endblock %}

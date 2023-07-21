@@ -1,0 +1,355 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    
+      <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        UPPER LIMB
+    </a></style>
+
+<ul >
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann's ischaemic Contracture</a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+fracture-dislocation </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+    condylar fracture of Humerus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+          contracture </a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+              finger</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                  syndrome</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                    shoulder</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                      disease </a></li>  
+    
+                              </ul>
+
+    
+  
+   
+  
+        
+  
+         
+
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+    line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+  <div="img">
+        
+  <h2>Colles fracture</h2>     
+  <center><img src="https://www.wristsupports.co.uk/user/news/thumbnails/colles-fracture-pic.jpg" width="300" height="300"></center>
+</div>
+
+<p>The Colles fracture, the most common fracture of the wrist, was first described by Abraham Colles in 1814. In this injury, there is a complete fracture of the distal radius (typically the last two centimeters) usually accompanied by damage to the ulnar collateral ligament or the ulnar styloid process. Middle-aged women and elderly are more commonly reported with this type of fracture. in this article, we are going to discuss the mechanism of these fractures alongside their classification, presentation, and assessment. It is the most common fracture in people >40 years of age.
+Site: This is a transverse fracture of distal end of radius, at the cortico-cancellous 
+junction (2 cm proximal to distal articular surface). </p>
+
+<p>Relevant anatomy: Normally, the radial styloid is about 1 cm distal to the ulnar 
+styloid. In Colles fracture, both the styloids lie almost at the same level.</p> 
+<p>Mechanism: Fall on an out-stretched hand/ post-menopausal osteoporosis. </p>
+
+<p>Typical deformities: </p>
+<h3>Clinical features: </h3>
+<p>The patient presents with pain, swelling and deformity of the wrist. On 
+examination, tenderness and irregularity of the lower end of the radius is found. 
+There may be a classical 'dinner-fork deformity'. </p>
+<p> Dorsal displacement. </p>
+<p> Dorsal tilt. </p>
+<p> Lateral displacement. </p>
+<p> Lateral tilt. </p>
+<p> Impaction of fragments. </p>
+<p> Supination. </p>
+
+<p>The wrist is broadened and radially deviated with prominent ulnar head and there 
+is dorsal and lateral tilt. Wrist movements are restricted. </p>
+<h3>Radiological features: </h3>
+<p> Most of the displacements are evident on X-Ray, except Supination which 
+can be appreciated only clinically. </p>
+<p> A-P view: Normally the distal articular surface of radius is faced medially. 
+When it faces laterally, a lateral tilt is present. </p>
+<p> Lateral view: Normally the distal articular surface of radius is faced 
+ventrally. When it faces neutral/ dorsal position, a dorsal tilt is present. 
+This dorsal tilt is the most characteristic displacement of Colles fracture. </p>
+<h3>Treatment: </h3>
+<p> For an undisplaced fracture, immobilisation in a below-elbow plaster cast 
+for 6 weeks is sufficient. </p>
+<p> For displaced fractures, the standard method of treatment is manipulative 
+reduction followed by immobilisation in Colles' cast.</p> 
+<p>Technique of closed manipulation: </p>
+<p> The muscles of forearm must be relaxed, either by general or regional 
+anesthesia. The surgeon grasps the injured hand as if he were 'shaking 
+hands'. </p>
+<p> The first step is to disimpact the fragments which have often been driven 
+together. This is achieved by firm longitudinal traction to the hand against 
+the counter-traction by an assistant who grasps the arm above the flexed 
+elbow. Some displacements are corrected by traction alone. </p>
+<p> The surgeon now presses the distal fragment into palmar flexion and ulnar 
+deviation using the thumb of his other hand.</p> 
+
+<p> As this is done, the patient's hand is drawn into pronation, palmar flexion 
+and ulnar deviation. A plaster cast is applied extending from below the elbow 
+to the metacarpal heads, maintaining the wrist in palmar flexion and ulnar 
+deviation. This is Colles' cast. </p>
+
+ <p>Complications
+  Patients frequently heal well with no complications at all. If redisplacement of the Colles fracture is seen a few cases week after reduction, it's important to take and check radiographs a week-10 days after injury. Possible complications include:
+  
+  malunion
+  persistent translation of the carpus
+  shortening of radius
+  stiffness of the wrist and the forearm
+  Few very rare complications are carpal tunnel syndrome, Sudeck's atrophy and ulnar and radial compression neuropathy</p>
+
+  <p>Mechanism of injury
+    Colles fracture typically occurs when a person falls and uses a pronated hand and outstretched arm to try to break the fall. In this position, the wrist is usually at 40-90° in dorsiflexion. The pressure from the fall over-extends the hand and breaks the radius just above the wrist. When this occurs, the distal part of the bone tends to become dorsally displaced. It is also frequently comminuted, meaning it is broken into multiple pieces.
+    
+    In most people, the radial styloid process is longer, and therefore projects farther, than the ulnar styloid process. In a Colles fracture, the radius may be shortened, reversing this relationship. The ulnar styloid process may be avulsed, or broken off, as well which results from the force through an intact triangular fibrocartilage complex. A distal radial fracture with palmar displacement can also occur.</p>
+
+    <p>Diagnosis and management
+      A plain radiograph is usually required to confirm the diagnosis. Reduction is done usually for a displaced fracture under general anesthesia or interscalene brachial block. A splint or cast is required to hold the forearm in a stable and in immobilised position. In case of displaced intra-articular fractures with palmar dislocation, open reduction and internal fixation are sometimes required. Physiotherapy is advised after fracture healing for better strengthening of muscles and range of movements.</p>
+  </body>
+{% endblock %}

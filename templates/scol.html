@@ -1,0 +1,326 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            SPINE AND VERTEBRA
+        </a></style>
+ <ul>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/slipp"> Slipped Disc</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/spon">Spondylolisthesis</a></li>
+   
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/clinical">Clinical Feature Of TB Spine</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/gibbus">Gibbus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/bifida">Spine Bifida</a></li>
+    
+  
+                              </ul>
+  
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h2>Scoliosis</h2>
+    <h3>What is scoliosis?</h3>
+        
+   <p> The spine is made up of a stack of rectangular-shaped building blocks called vertebrae. When viewed from behind, the spine normally appears straight. However, a spine affected by scoliosis is curved — often appearing like an S or C — with a rotation of the vertebrae. This curvature gives the appearance that the person is leaning to one side.
+  </p>
+    <h3>What are the different types of scoliosis?</h3>
+          <p> Congenital Scoliosis</p>
+       
+        In congenital scoliosis, spinal curvature develops because of misshapen vertebrae. The diagnosis of congenital scoliosis may be made in early infancy if outward signs are present, but many cases are diagnosed later in childhood.
+        
+        As a child grows, scoliosis may worsen, and asymmetries in the body may develop. Typically, congenital scoliosis is treated with a “watch and wait” approach. Surgery is considered only if a curve is clearly getting worse and the child is facing ongoing deformity and risk of future pain.
+        
+        Congenital scoliosis preoperative X-rays showing severe spine curvature from the back and side
+        
+        Idiopathic Scoliosis
+        Doctors, nurses and scientists have been studying the natural history and genetics of scoliosis for decades, but to this day, the cause of idiopathic scoliosis is still unknown. But we do know that the most common time for idiopathic scoliosis to develop is at the onset of adolescence, or around the age of 10. We also know that growth can make it worse, and we should be most concerned about scoliosis in a child that has significant growth remaining.
+        
+        When diagnosed in children 2 or younger, this type of scoliosis is called infantile idiopathic scoliosis.
+        
+        X-rays of a patient with adolescent idiopathic scoliosis showing curvature of the spine
+        
+        Neuromuscular Scoliosis
+        A child with an underlying neuromuscular condition is at higher risk for developing scoliosis. A straight spine requires normal muscle balance and strength in the torso. In conditions such as cerebral palsy, spina bifida and muscular dystrophy, the muscles are often weak and unbalanced, leading to the development of a spinal curvature.
+        
+        A child with neuromuscular scoliosis is given the option of wearing a scoliosis brace that may slow or prevent the worsening of the condition. Surgical intervention is offered when the curve has reached the tipping point of 50 degrees. Over time, these curves will continue to worsen, leading to progressive imbalance of the torso. Beyond 80 degrees, breathing challenges develop as space for the lungs decreases.
+        
+        X-rays showing severe scoliosis in a patient with cerebral palsy before and after treatment</p>
+        
+        <h3> What are the symptoms of scoliosis?</h3>
+          <p>The following are the most common symptoms of scoliosis. However, each individual may experience symptoms differently. Symptoms may include:
+        
+        Difference in shoulder height
+        
+        The head isn't centered with the rest of the body
+        
+        Difference in hip height or position
+        
+        Difference in shoulder blade height or position
+        
+        When standing straight, difference in the way the arms hang beside the body
+        
+        When bending forward, the sides of the back appear different in height
+        
+        Prominence or asymmetry in the ribs seen from the front or back
+        
+        The symptoms of scoliosis may resemble other spinal conditions or deformities, or may be a result of an injury or infection. Always consult your doctor for a diagnosis.
+        
+        Symptoms that are not commonly associated with idiopathic scoliosis are back pain, leg pain, and changes in bowel and bladder habits. If a person is experiencing these types of symptoms, he or she requires immediate further medical evaluation by a doctor to determine the cause of the symptoms.
+          </p>
+        <h3>How is scoliosis diagnosed?</h3>
+         
+          
+          <p> Early detection of scoliosis is most important for successful treatment. In addition to a complete medical history and physical examination, an X-ray is the primary diagnostic tool for scoliosis. In establishing a diagnosis of scoliosis, the doctor measures the degree of spinal curvature on the X-ray.
+        
+        The following additional diagnostic procedures may be performed for nonidiopathic curvatures, atypical curve patterns or congenital scoliosis:
+        
+        MRI. This diagnostic procedure uses a combination of large magnets and a computer to produce detailed images of organs and structures within the body.
+        
+        CT scan. This diagnostic imaging procedure uses a combination of X-rays and computer technology to produce horizontal, or axial, images (often called slices) of the body. A CT scan shows detailed images of any part of the body, including the bones, muscles, fat and organs. CT scans are more detailed than general X-rays.
+        
+        <h3>How is scoliosis treated?</h3>
+        <p>The goal of treatment is to stop the progression of the curve and prevent deformity. Observation and repeated examinations — also referred to as the “watch and wait” approach — may be necessary to determine if the spine is continuing to curve. These are used when a person has a curve that is less than 20 degrees and who is still growing.
+        
+        For actively growing children with scoliosis curves between 20 and 50 degrees, bracing is recommended. An external torso brace, or TLSO, is worn for a prescribed number of hours. The brace applies corrective pressure to the growing spine, preventing further worsening of the scoliosis. Read more about the effects of bracing.
+        
+        Surgery is a recommended treatment option for a child with severe scoliosis or a curve that has worsened to more than 50 degrees. At the Johns Hopkins Children’s Center, our team of pediatric spine surgeons, nurses and anesthesiologists use a family-centered approach to develop a plan for the care of your child. We are a high-volume scoliosis center, and we are constantly learning and adopting best practices for the operative and postoperative care of children with scoliosis.
+        
+        WHAT YOU NEED TO KNOW
+        Scoliosis is often first diagnosed in</p>
+    {% endblock %}

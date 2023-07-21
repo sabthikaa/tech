@@ -1,0 +1,323 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    
+      <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        UPPER LIMB
+    </a></style>
+
+<ul >
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann's ischaemic Contracture</a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+fracture-dislocation </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+    condylar fracture of Humerus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+          contracture </a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+              finger</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                  syndrome</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                    shoulder</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                      disease </a></li>  
+    
+                              </ul>
+
+    
+  
+   
+  
+        
+  
+         
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+  <h2>Mallet finger</h2>
+  <div="img">
+        
+        
+  <center><img src="https://3.bp.blogspot.com/-6IRYSpg_IoU/VtxwwaNwTRI/AAAAAAAAA5Q/4rKpBmhD8Mk/s1600/Mallet-finger10.jpg" width="300" height="300"></center>
+</div>
+<p>Mallet finger, known as drop finger or baseball finger, is an injury to the tendon that straightens the tip of your finger (or thumb). Tendons attach your bones to your muscles, providing stability and motion. With injury, the tendon can tear or detach from the finger bone. In some cases you may injure your finger bone along with your tendon. If you have mallet finger, you’re unable to straighten your finger, it droops at the tip, is painful and looks bruised and/or swollen.
+
+  Mallet finger is an injury that frequently occurs in sports such as baseball, basketball or football when you try to catch a hard ball and it hits your extended fingertip. The injury frequently affects a finger on the hand you use the most (your dominant hand).</p>
+  <p>After a sudden flexion injury (e.g. stubbing the tip of the finger), the terminal 
+  phalanx droops and cannot be straightened actively. </p>
+  <h3>Types of injuries: </h3>
+  <p>2 broad types of injuries can occur in a mallet finger: </p>
+  <p>1. Avulsion of the most distal part of extensor tendon </p>
+  <p>2. Avulsion of a bone fragment (small/large) from base of terminal phalanx.</p>
+  
+  <p>Treatment: </h3>
+    <p>The TIP joint should be immobilized in slight hyperextension, using a special 
+  mallet-finger splint which fixes the distal joint but leaves the proximal joints free. </p>
+  <h3>Duration of splint: </h3>
+  <p>1. For tendon avulsion: 8 weeks constant + 4 weeks only at night </p>
+    <p>2. For bone avulsion: 6 weeks (as bone heals early than tendon). </p>
+ <h3> Complications: </h3>
+ <p>1. Non-union </p>
+ <p>2. Persistent droop </p>
+ <p>3. Swan neck deformity.</p> 
+ <p>Symptoms:
+  After the pain of the initial injury you may experience:
+  
+  Swelling.
+  Bruising.
+  Redness.
+  An inability to straighten your fingertip.
+  Tenderness.
+  A detached fingernail.
+  Redness under the fingernail bed.
+  Typically, Dupuytren's contracture first presents as a thickening or nodule in the palm, which initially can be with or without pain. Later in the disease process, which can be years later, there is painless increasing loss of range of motion of the affected finger(s). The earliest sign of a contracture is a triangular "puckering" of the skin of the palm as it passes over the flexor tendon just before the flexor crease of the finger, at the metacarpophalangeal (MCP) joint.[citation needed]
+
+  Generally, the cords or contractures are painless, but, rarely, tenosynovitis can occur and produce pain. The most common finger to be affected is the ring finger; the thumb and index finger are much less often affected. The disease begins in the palm and moves towards the fingers, with the metacarpophalangeal (MCP) joints affected before the proximal interphalangeal (PIP) joints.The MCP joints at the base of the finger responds much better to treatment and are usually able to fully extend after treatment. Due to anatomic differences in the ligaments and extensor tendons at the PIP joints, they may have some residual flexion. Proper patient education is necessary to set realistic treatment expectation.
+  
+  In Dupuytren's contracture, the palmar fascia within the hand becomes abnormally thick, which can cause the fingers to curl and can impair finger function. The main function of the palmar fascia is to increase grip strength; thus, over time, Dupuytren's contracture decreases a person's ability to hold objects and use the hand in many different activities. Dupuytren's contracture can also be experienced as embarrassing in social situations and can affect quality of life People may report pain, aching, and itching with the contractions. Normally, the palmar fascia consists of collagen type I, but in Dupuytren patients, the collagen changes to collagen type III, which is significantly thicker than collagen type</p>
+</body>
+{% endblock %}

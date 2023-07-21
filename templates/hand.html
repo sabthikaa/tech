@@ -1,0 +1,440 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+    
+      <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+        UPPER LIMB
+    </a></style>
+
+<ul >
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann's ischaemic Contracture</a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+fracture-dislocation </a></li>
+<li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+    condylar fracture of Humerus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+          contracture </a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+              finger</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                  syndrome</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                    shoulder</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                      disease </a></li>  
+    
+                              </ul>
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h2> Hand Pain and Problems</h2>
+        <h3>Anatomy of the hand</h3>
+            <p>The hand is composed of many different bones, muscles, and ligaments that allow for a large amount of movement and dexterity. There are 3 major types of bones in the hand itself, including:
+            
+            Anatomy of  the hand
+            
+            Phalanges. The 14 bones that are found in the fingers of each hand and also in the toes of each foot. Each finger has 3 phalanges (the distal, middle, and proximal); the thumb only has 2.
+            
+            Metacarpal bones. The 5 bones that compose the middle part of the hand.
+            
+            Carpal bones. The 8 bones that create the wrist. The carpal bones are connected to 2 bones of the arm, the ulnar bone and the radius bone.
+            
+            Numerous muscles, ligaments, and sheaths can be found within the hand. The muscles are the structures that can contract, allowing movement of the bones in the hand. The ligaments are fibrous tissues that help bind together the joints in the hand. The sheaths are tubular structures that surround part of the fingers.
+          </p>
+            
+          <h3>What are some common hand problems?</h3>
+         
+          
+          
+         <p> There are many common hand problems that can interfere with activities of daily living (ADLs), including the following:</p>
+
+
+<p>Arthritis is joint inflammation and can occur in multiple areas of the hand and wrist. Arthritis of the hand can be very painful.
+
+
+Rheumatoid arthritis, a condition that can attack joints throughout the body, commonly affects the joints and surrounding tendons of the wrist and fingers. It can cause the joints to become swollen, painful and possibly deformed. This can interfere with normal hand function. It can significantly impact a person's quality of life.
+         </p>
+
+<p>Osteoarthritis is one of the most common forms of arthritis in the hands and may be caused by normal use of the hand or it may develop after an injury. Osteoarthritis usually develops in one of 3 places: the base of the thumb, at the end joint closest to the finger tip, or at the middle joint of a finger.
+
+Signs and symptoms of osteoarthritis include:
+
+Stiffness,
+
+Swelling and pain,
+
+Bony nodules at the middle or end joints of the finger,
+
+Pain and possibly swelling at the base of the thumb,
+
+Loss of strength in the fingers and the grip of the hand,
+
+Treatment for osteoarthritis includes:
+
+Nonsteroidal anti-inflammatory drugs,
+
+Resting the affected hand,
+
+Wearing splints at night,
+
+Using heat to soothe the pain,
+
+Using ice to reduce swelling,
+
+Possible cortisone injections,
+
+Possible surgery when no other treatments work,</p>
+
+
+<p>Osteoarthritis, also called degenerative arthritis, is a degenerative condition that commonly affects the small joints of the fingers and the base of the thumb. Common in both men and women, it can cause the joints to become swollen, stiff and painful. It often leads to joint enlargement, interfering with normal hand function and significantly impacting a person's quality of life. There are two main types of hand arthritis: primary generalized osteoarthritis and erosive osteoarthritis, and they affect the hands differently.
+</p>
+
+<p>Carpal tunnel syndrome Carpal tunnel syndrome is a condition in which the median nerve is compressed as it passes through the carpal tunnel in the wrist, a narrow confined space. Since the median nerve provides sensory and motor functions to the thumb and 3 middle fingers, many symptoms may result. The following are the most common symptoms for carpal tunnel syndrome. However, each individual may experience symptoms differently. Symptoms may include:
+
+Trouble gripping objects with the hand(s),
+
+Pain or numbness in the hand(s),
+
+"Pins and needles" feeling in the fingers,
+
+Swollen feeling in the fingers,
+
+Burning or tingling in the fingers, especially the thumb and the index and middle fingers,
+
+The symptoms of carpal tunnel syndrome may look like other conditions such as tendonitis, bursitis, or rheumatoid arthritis. Always see your healthcare provider for a diagnosis.</p>
+
+<p>Treatment may include:
+
+Splinting of the hand (to help prevent wrist movement and decrease the compression of the nerves inside the tunnel),
+
+Oral or injected (into the carpal tunnel space) anti-inflammatory medications (to reduce the swelling),
+
+Surgery (to relieve compression on the nerves in the carpal tunnel),
+
+Changing position of a computer keyboard, or other ergonomic changes,
+
+
+This condition is a painful compression of a nerve in the wrist that can interfere with a person's ability to use the wrist and the hand. Carpal tunnel syndrome is a progressive condition that can worsen without proper care.
+
+<p>Ganglion cysts</p>
+<p>Soft, fluid-filled cysts can develop on the front or back of the hand for no apparent reason. These are called ganglion cysts — the most common, benign (noncancerous), soft-tissue tumor of the hand and wrist.
+
+The following are the most common symptoms for ganglion cysts. However, each individual may experience symptoms differently. Symptoms may include:
+
+Wrist pain that is aggravated with repeated use or irritation
+
+Aslow growing, localized swelling, with mild aching and weakness in the wrist
+
+An apparent cyst that is smooth, firm, rounded, or tender
+
+The symptoms of ganglion cysts may resemble other medical conditions or problems. Always consult your doctor for a diagnosis.
+
+Initially, when the cyst is small and painless, treatment is usually not needed. Only when the cyst begins to grow and interferes with the functionality of the hand is treatment usually necessary. Treatment may include:
+
+Rest,
+
+Splinting,
+
+Nonsteroidal anti-inflammatory medications,
+
+Aspiration,
+
+Cortisone injections,
+
+Surgery.
+
+
+A ganglion cyst is a fluid-filled sac that forms as a herniation from a joint capsule or tendon sheath. The sac is attached to the joint or tendon sheath by a "stalk" that allows fluid to move into the pouch from the joint or sheath. The stalk functions as a valve and often limits fluid drainage out of the cyst, allowing the cyst to increase - but not decrease - in size. In some cases the stalk functions as a two-way valve, allowing fluid to travel in both directions. This can enable the cyst to increase and decrease in size based on activities.
+         </p>
+<p>Tendon problems</p>
+<p>Two major problems associated with tendons include tendonitis and tenosynovitis. Tendonitis, inflammation of a tendon (the tough cords of tissue that connect muscles to bones) can affect any tendon, but is most commonly seen in the wrist and fingers. When the tendons become irritated, swelling, pain, and discomfort will occur.
+
+Wrist Pain and Tendonitis | FAQ with Dr. Sophia Strike
+
+Tenosynovitis is the inflammation of the lining of the tendon sheaths which enclose the tendons. The tendon sheath is usually the site which becomes inflamed, but both the sheath and the tendon can become inflamed simultaneously. The cause of tenosynovitis is often unknown, but usually strain, overuse, injury, or excessive exercise may be implicated. Tendonitis may also be related to disease (such as, diabetes or rheumatoid arthritis).
+
+Common tendon disorders include the following:
+
+Lateral epicondylitis (commonly known as tennis elbow). A condition characterized by pain in the back side of the elbow and forearm, along the thumb side when the arm is alongside the body with the thumb turned away. The pain is caused by damage to the tendons that bend the wrist backward away from the palm.
+
+Medial epicondylitis (commonly known as golfer's or baseball elbow). A condition characterized by pain from the elbow to the wrist on the palm side of the forearm. The pain is caused by damage to the tendons that bend the wrist toward the palm.
+
+Rotator cuff tendonitis. A shoulder disorder characterized by the inflammation of the shoulder capsule and related tendons.
+
+DeQuervain's tenosynovitis.The most common type of tenosynovitis disorder characterized by the tendon sheath swelling in the tendons of the thumb.
+
+Trigger finger/trigger thumb. A tenosynovitis condition in which the tendon sheath becomes inflamed and thickened, thus preventing the smooth extension or flexion of the finger/thumb. The finger/thumb may lock or "trigger" suddenly.
+
+Treatment for most tendon problems may include:
+
+Activity modification,
+
+Ice,
+
+Splinting or immobilization,
+
+Steroid injections,
+
+Nonsteroidal anti-inflammatory medications,
+
+Surgery,</p>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        
+ {% endblock %}

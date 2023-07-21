@@ -1,0 +1,390 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+        data-bs-toggle="dropdown" aria-expanded="false">
+       PRINCIPLES OF ORTHOPAEDICS
+    </a></style>
+    <ul >
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/compound">COMPOUND FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/closefracture">NON-UNION OF FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/compartment">COMPARTMENT SYNDROME</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/crush">CRUSH SYNDROME</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/fat">FAT EMBOLISM</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/myositis">MYOSITIS OSSIFICANS</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/pathological/">PATHOLOGICAL FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/stress">STRESS FRACTURE</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/nerveinjuries">CLASSIFICATION OF NERVE INJURIES</a></li>
+    </ul>
+      
+
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h3>What is Orthopedics?</h3>
+    <p>Studio Firma/Stocksy
+    Orthopedics, also known as orthopedic surgery, is a branch of medicine that focuses on the care of the skeletal system and its interconnecting parts. These parts include the following:
+    
+    bones,
+    muscles,
+    joints,
+    tendons,
+    ligaments,
+    nerves,
+    There are generally two types of orthopedists: surgical and nonsurgical. The former are called orthopedic surgeons, while nonsurgical orthopedists include physiatrists and physical medicine and rehabilitation specialists.
+    </p>
+   <p> An orthopedist often works as part of a larger orthopedic treatment team. This team may include:
+    
+    physician assistants,
+    nurse practitioners,
+    occupational and physical therapists,
+    athletic trainers,</p>
+    
+   <h3> What do orthopedists treat? </h3>
+    <p>Orthopedists treat a wide variety of musculoskeletal conditions. These conditions may be present from birth, or they may result from an injury or age-related wear and tear.
+    
+    Below are some of the most common conditions that an orthopedist may treat:
+    
+    joint pain from arthritis,
+    bone fractures,
+    soft tissue injuries, which are those that affect muscles, tendons, and ligaments,
+    back pain,
+    neck pain,
+    shoulder pain and problems, such as bursitis,
+    carpal tunnel syndrome,
+    overuse and sports injuries, including sprains, tendinitis, meniscus tears, and anterior cruciate ligament (ACL) tears
+    congenital conditions, such as clubfoot and scoliosis
+    bone cancer.
+    Questions to ask an orthopedic doctor
+    A person may wish to ask the following questions:</p>
+    
+   <h3> What nonoperative treatments are available?</h3>
+   <p> Am I a good candidate for this procedure?</p>
+    <p> What surgical methods will the surgeon use?</p>
+        <p> What are the risks or potential complications of the procedure?</p>
+            <p>  What are the benefits of the procedure?</p>
+                <p>  How long will the benefits last?</p>
+                    <p> What is the success rate of this procedure?</p>
+                        <p> What will I need to do to get the best results?</p>
+                            <p> How and where will the surgeon perform the procedure?</p>
+                                <p>If complications occur, how will the surgeon fix them?</p>
+    
+    <h3>How do you choose an orthopedic surgeon?</h3>
+   <p> A vital decision that a person has to make before an orthopedic surgery is choosing a licensed and accredited surgeon from a competent professional association.
+
+    It is important to check that a surgeon:
+    
+    is a graduate of an accredited medical school
+    has completed a residency in orthopedic surgery
+    has certification with the American Board of Orthopedic Surgery (ABOS) or the American Osteopathic Board of Orthopedic Surgery (AOBOS)
+    has the experience and sufficient professional training to perform the procedure
+    works only in accredited medical facilities
+    adheres to medical education requirements, standards in patient safety, and a strict code of ethics
+    A person can use the ABOS and American Academy of Orthopedic Surgeons (AAOS) websites to find an orthopedic surgeon.</p>
+    
+  
+   </p>
+    <h3>Treatment options</h3>
+    <p>
+    In addition to in-office treatments, a person’s orthopedist may recommend one or more of the following to treat chronic musculoskeletal conditions:
+    
+    over-the-counter anti-inflammatory medications
+    rehabilitation and physical therapy,
+    home exercise programs,
+    injections,
+    acupuncture,
+    mobility aids,
+    surgery, when other treatments fail,
+    Types of orthopedic practices,
+    An orthopedist may specialize in a particular branch of orthopedic medicine. These branches are called subspecialties.
+    
+    Some orthopedic subspecialties include:
+    
+    hand and upper extremity,
+    foot and ankle or podiatry,
+    orthopedic oncology, including tumor and cancer care,
+    pediatric orthopedics,
+    sports medicine,
+    spine surgery,
+    trauma surgery,
+    joint replacement surgery,
+    Which operations can orthopedic surgeons perform? 
+    The sections below examine some surgical procedures that an orthopedist may perform as part of their work.</p>
+    
+    <h3>Total joint replacement (TJR)</h3>
+    <p>TJR surgery is one of the most common elective surgeries in the United States.
+    
+    During a TJR, or arthroplasty, the doctor will remove the worn-out surfaces of a damaged joint and use a prosthesis as a replacement to replicate the functions of a typical healthy joint.
+    
+    Many people can perform daily activities more quickly after a total joint replacement.
+    
+    Arthroscopic surgery
+    Arthroscopic surgery is a minimally invasive procedure that uses an arthroscope to diagnose joint problems.
+    
+    An arthroscope is a long, thin camera — about the size of a buttonhole — that an orthopedic surgeon will insert into a person’s joint, most commonly the knee or shoulder. The camera connects to a video monitor that allows them to see the inside of the joint.
+    
+    The surgeon can then use several small, thin instruments to fix various problems by making minor additional incisions.
+    
+    Arthroscopic surgery of the knee is the most common type of orthopedic surgery that takes place in the U.S. An orthopedist may perform arthroscopic surgery to repair common joint injuries, such as meniscus tears, ACL tears, and rotator cuff tears.
+    
+    It can take 1 week to several months for a person to recover fully from an arthroscopy.</p>
+    
+    <p>Fracture repair surgery
+    An orthopedic surgeon may recommend fracture repair surgery to restore the normal anatomy of a more severely broken bone. To stabilize the bone, they can use different types of implants. These include rods, plates, screws, and wires.
+    </p>
+    <p>Following a fracture repair surgery, it is common for a person to lose muscle strength and range of motion in the injured area. However, the doctor will recommend specific exercises to restore normal muscle strength, joint motion, and flexibility.
+</p>
+    <p>Bone grafting surgery
+    Orthopedic surgeons may performTrusted Source bone grafting to augment bone regeneration when a person’s body cannot produce enough new bone.
+    </p>
+    <p>In bone grafting surgery, an orthopedic surgeon uses bone from a person’s body or a donor to repair and strengthen diseased or damaged bones. They may also use a synthetic bone substitute and biological factors when natural bone grafts are unavailable.
+    </p>
+    <p>Spinal fusion
+    During a spinal fusion surgery, the doctor will fuse two or more vertebrae to correct problems with the spine. This procedure allows the vertebrae to heal into a single, solid mass of bone.
+    </p>
+    <p>An orthopedic spine surgeon may perform a spinal fusion for some back and neck problems, including scoliosis and injuries to the vertebrae or intervertebral disks.
+    
+    Education
+    To become an orthopedic surgeon, a person must:
+    
+    complete an undergraduate college degree
+    graduate from an accredited medical school with a Doctor of Medicine or a Doctor of Osteopathy degree
+    complete 5 years of training in an orthopedic residency program that has approval from either the Accreditation Council for Graduate Medical Education or the Royal College of Physicians and Surgeons of Canada
+    obtain a medical license and optional board certification
+    complete continuing medical education and exams to stay current and maintain certifications
+    After completing the 5-year residency program, many orthopedic surgeons choose to complete an additional 1–2 years of fellowship training in one of the subspecialty areas.
+    </p>
+    {% endblock %}

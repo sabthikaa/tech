@@ -1,0 +1,358 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            LOWER LIMB
+        </a></style>
+ <ul>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/fractureofpetalla">Fracture of Patella</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/rup">Ruptured Tendoachilles</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/aval">Avascular necrosis of femoral head </a></li>
+    
+                              </ul>
+  
+        
+  
+         
+
+
+
+
+                            </div>
+
+
+                        </body>
+                        </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+<body>
+    <h2>Hip Fracture</h2>
+    <h3>What is a hip fracture?</h3>
+    <p>A hip fracture is a partial or complete break of the femur (thigh bone), where it meets your pelvic bone. It’s a serious injury that requires immediate medical attention.</p>
+    
+        <p>Fractured hips in younger people usually occur during car accidents, long falls or other severe traumas. A hairline crack called a stress fracture can also develop from overuse and repetitive motion.</p>
+    
+            <p>The majority of hip fractures, though, happen to people over 60. For them, a simple fall is the most common cause — though a small percentage of patients experience spontaneous fractures.Hip fractures can cause a number of complications. In older patients, these include:</p>
+    
+                <p>A greater chance of death (about 20 percent of patients die within a year)</p>
+    
+                    <p>A challenging recovery (only an estimated 1 in 4 patients fully recover)</p>
+    
+                        <p>A long hospital stay (1 to 2 week average), with possible rehab facility admission</p>
+    
+                            <p>Potential loss of independence, diminished quality of life and depression</p>
+    
+                                <p>Fortunately, surgical repairs and physical therapy techniques continue to improve. There are also straightforward ways to prevent hip fractures.</p>
+    <h3>What are the symptoms of a hip fracture?</h3>
+    <p>While each patient experiences a hip fracture differently, symptoms generally include:</p>
+    
+        <p>Hip and/or knee pain</p>
+    
+            <p>Lower back pain</p>
+    
+                <p>Inability to stand or walk</p>
+    
+                    <p>Bruising or swelling</p>
+    
+                        <p>Foot turned out at an odd angle, making the leg look shorter</p>
+    
+                            <p>A feeling of tendonitis or muscle strain (stress fractures only)</p>
+    
+                                <p>Hip fracture symptoms may actually come from other medical conditions, so always consult your doctor for a diagnosis.</p>
+    
+    <h3>What are the risk factors of a hip fracture?</h3>
+    <p>Bones become thinner and weaker as you grow older — doubling the rate of hip fractures for each decade of age after 50.When bone is lost too quickly or not replaced rapidly enough, osteoporosis can develop and increase the risk of hip fractures. While the disease can strike anyone, those particularly vulnerable include:</p>
+    
+        <p>Whites</p>
+    
+            <p>Asians</p>
+    
+                <p>Women</p>
+    
+                    <p>Diminished estrogen production makes postmenopausal women more susceptible to osteoporosis and hip fractures — in fact, women make up 70 percent of all hip fracture patients.</p>
+    
+    <h3>Hip Fracture Prevention</h3>
+    <p>Preventing a hip fracture is more desirable than treating one. Advice on avoiding a fracture is similar to that for preventing osteoporosis and includes:</p>
+    
+        <p>Consuming enough vitamin D and calcium — including such calcium-rich foods as milk, cottage cheese, yogurt, sardines and broccoli</p>
+    
+            <p>Getting a bone density test if you fall into a higher-risk category for osteoporosis</p>
+    
+                <p>Engaging in regular weight-bearing exercises, such as walking, jogging or hiking, or improving strength and balance through programs like Tai Chi</p>
+    
+                    <p>Taking medications to prevent bone loss or spur bone growth, as prescribed by your doctor (fracture patients are at high risk for additional fractures)</p>
+    
+                        <p>Stopping smoking</p>
+    
+                            <p>Avoiding excessive drinking</p>
+    
+                                <p>Most hip fractures sustained by older people occur from falls, usually at home and often while walking on a level surface. You can avoid such accidents by:</p>
+    
+                                    <p>Keeping you stairs and floors clear of trip hazards, such as electrical cords</p>
+    
+                                        <p>Placing slip-resistant rugs next to your bathtub and installing grab bars in your tub</p>
+    
+                                            <p>Positioning night lights to lead from your bedroom to your bathroom</p>
+    
+                                                <p>Using pads or nonskid backing to keep your rugs in place</p>
+    
+                                                    <p>Avoiding unsteady furniture and step ladders</p>
+    
+                                                        <p>Visiting an ophthalmologist every year to have your vision checked and any vision loss treated</p>
+    <h3>Hip Fracture Diagnosis</h3>
+    <p>Your hip can fracture into a single break or multiple breaks. In addition to a complete medical history and physical examination, your doctor may decide to diagnose your injury by using:</p>
+
+        <p>X-ray</p>
+
+            <p>Magnetic Resonance Imaging (MRI)</p>
+
+                <p>Computed Tomography Scan (CT or CAT scan)</p>
+
+                    <p>If you break your hip, you should get tested for osteoporosis so you and your doctor can take steps to prevent another fracture.</p>
+
+<h3>Hip Fracture Treatment</h3>
+<p>A hip fracture is usually treated with surgery — either by strengthening and stabilizing the hip with metal inserts, or fully replacing it. The goal is to relieve your pain and help you resume a normal activity level.The type of surgical repair recommended depends on:</p>
+
+    <p>Your age, overall health and medical history</p>
+
+        <p>The type of fracture(s) identified and the precise location(s)</p>
+
+            <p>Your tolerance for specific medications, procedures or therapies</p>
+
+                <p>Your goals and expectations</p>
+
+                    <p>Your opinions and preferences</p>
+
+                        <p>Hip surgery usually requires a hospital stay, followed by additional rehab — either at home or in a rehab facility.</p>
+</body>
+{% endblock %}

@@ -1,0 +1,319 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+      <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          MISCELLANEOUS
+      </a></style>
+<ul>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/bone">Bone graft </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/external">External fixation</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/ideal"> Ideal amputation 
+  stump</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/codman">Codman's triangle</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/scan">Bone scan </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/paget">Paget's disease of bone</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/tension">Tension band 
+  wiring</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/sp">SP Nail</a></li>
+  
+                            </ul>
+  
+        
+  
+         
+
+
+
+
+                          </div>
+
+
+                        </body>
+                        </html>
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+  <h2>Ideal amputation stump</h2>
+  <div="img">
+        
+        
+  <center><img src="https://www.researchgate.net/profile/Jonathan-Miles-6/publication/283085682/figure/download/fig1/AS:287640148164608@1445590163718/AP-and-lateral-radiographs-showing-below-knee-amputation-stump-with-relative-patella-alta.png" width="300" height="300"></center>
+</div>
+<p>Limb amputation refers to partial or total loss or removal of the upper or lower limbs. Among the causes of upper limb amputation, physical trauma is the most common, whereas peripheral artery disease is the leading cause of lower limb amputation. Other reasons for amputation include congenital limb defects, tumors, and chronic osteomyelitis.</p> <p>Postoperative complications after amputation surgery include pain, hematomas, infection and tissue necrosis, joint contracture, muscle weakness, and phantom sensations or pain; in this regard, proper post-surgical management of the amputation stump is imperative[3]. Additionally, it is important to maintain the shape of the stump after amputation surgery, and essential for the amputee to undergo training for the wearing and use of a prosthesis. Therefore, the aim of this review was to provide a comprehensive overview of stump management methods for medical staff to optimize patient recovery.</p>
+<p>An ideal amputation stump should assure the following characteristics: </p>
+  <p> Ideal length and shape </p>
+    <p> Bone end well covered with muscles </p>
+      <p> Non adherent incision scar </p>
+        <p> Muscle with good power </p>
+          <p> Absence of neuroma </p>
+            <p> Free from infection </p>
+              <p> Full and free movements at the joint above </p>
+                <p> No fixed deformity. </p>
+                  <p>Ideal length and shape </p>
+<p>To predict the level of amputation, some methods are used to assess the 
+vascularity of primary wound healing. </p>
+<p>Ex:</p>
+<p> Trans cutaneous measurement of oxygen tension (Best method) </p>
+  <p> Tissue uptake of IV fluorescein </p>
+    <p> Thermography </p>
+      <p> Laser Doppler flowmetry. </p>
+ <p>The importance of ideal length and shape of an amputation stump lies in the fact 
+that when stump length is less than ideal or when the ideal shape is not possible, 
+it can potentially compromise the function; in that case amputation at the next 
+higher level is recommended.</p> 
+<p>Bone end well covered with muscles 
+An ideal stump should have end bearing, i.e. it should have side pad/ bony surface 
+of sufficient size that can bear weight for varying period – especially in partial foot 
+amputations. Disarticulation (separation of two bones at their joints) is 
+recommended for this purpose in growing children and elderly. </p>
+<p>Non adherent incision scar 
+The scar should not adhere to the bone. To reduce the problem of adhesion, skin 
+and muscle flap over the stump should be thick. </p>
+
+<p>Muscle with good power 
+Muscle should be divided at least 5 cm distal to the intended bone resection. 
+The muscle should be stabilized by myodesis (muscle/ tendon sutured to bone) or 
+by myoplasty (muscle/ tendon sutured to periosteum/ fascia) of which myodesis
+is better option because of stronger insertion and greater strength.</p> 
+<p>Absence of neuroma 
+Nerves are transected using any of the preferred methods (end-loop 
+anastomosis/ perineural closure/ ligation/ cauterization/ bury nerve end in bone 
+or muscle) to reduce risk of developing neuroma. </p>
+<p>Free from infection 
+It is an absolute requirement of ideal amputation stump. 
+Full and free movements at the joint above & no fixed deformity </p>
+<p> Excessive periosteal stripping is not advised as it results in ring sequestra 
+and bone overgrowth. </p>
+<p> Bone prominence not covered by adequate soft tissue should be resected. </p>
+  <p> Definitive prosthesis should be fitted – strong and functional stump is a pre requisite for maximum prosthetic use.
+  </p>
+  
+</body>
+{% endblock %}

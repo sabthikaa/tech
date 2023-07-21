@@ -1,0 +1,362 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+      <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+  data-bs-toggle="dropdown" aria-expanded="false">
+  UPPER LIMB
+</a></style>
+<ul >
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/volk"> Volkmann’s ischaemic Contracture</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/colles">Colles fracture </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/monteggia">Monteggia 
+    fracture-dislocation </a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/recurrent">Recurrent dislocation of shoulder</a>
+      <li><a class="dropdown-item" href="http://127.0.0.1:8000/supre"> Supra 
+        condylar fracture of Humerus</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/fracture">Fracture clavicle</a></li>
+          <li><a class="dropdown-item" href="http://127.0.0.1:8000/Tennis">Tennis Elbow </a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:8000/Dupuytren">Dupuytren’s 
+              contracture </a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mallet">Mallet finger</a></li>
+                <li><a class="dropdown-item" href="http://127.0.0.1:8000/Trigger">Trigger 
+                  finger</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:8000/ole"> Fracture olecranon </a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:8000/carpel">Carpal tunnel 
+                      syndrome</a></li>
+                      <li><a class="dropdown-item" href="http://127.0.0.1:8000/frozen"> Frozen 
+                        shoulder</a></li>
+                        <li><a class="dropdown-item" href="http://127.0.0.1:8000/de">De Quervan’s 
+                          disease </a></li>  
+</ul>
+  
+        
+  
+         
+
+
+
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+
+ <h2> Carpal tunnel syndrome<h2>
+  <div="img">
+        
+        
+  <center><img src="http://osteohealth.net.au/wp-content/uploads/2015/11/Carpal-Tunnel.jpeg" width="300" height="300"></center>
+</div>
+<p>Carpal tunnel syndrome is caused by pressure on the median nerve. The carpal tunnel is a narrow passageway surrounded by bones and ligaments on the palm side of the hand. When the median nerve is compressed, symptoms can include numbness, tingling, and weakness in the hand and arm.
+
+  The anatomy of the wrist, health problems and possibly repetitive hand motions can contribute to carpal tunnel syndrome.
+  
+  Proper treatment usually relieves the tingling and numbness and restores wrist and hand function.</p>
+<p>It is a syndrome characterized by compression of median nerve as it passes 
+beneath the flexor retinaculum. </p>
+<p>Age group involved: 40-50 years, common in females. </p>
+<h3>Causes: </h3>
+<p>MEDIAN TRAP </p>
+  <p> Myxoedema </p>
+    <p> Edema premenstrually </p>
+      <p> Diabetes </p>
+        <p> Idiopathic </p>
+          <p> Agromegaly</p> 
+            <p> Neoplasm </p>
+              <p> Trauma </p>
+                <p> Rheumatoid arthritis </p>
+                  <p> Amyloidosis </p>
+                    <p> Pregnancy. </p>
+                    <p>Carpal tunnel syndrome is caused by pressure on the median nerve.
+
+                      The median nerve runs from the forearm through a passageway in the wrist (carpal tunnel) to the hand. It provides sensation to the palm side of the thumb and fingers, except the little finger. It also provides nerve signals to move the muscles around the base of the thumb (motor function).
+                      
+                      Anything that squeezes or irritates the median nerve in the carpal tunnel space may lead to carpal tunnel syndrome. A wrist fracture can narrow the carpal tunnel and irritate the nerve, as can the swelling and inflammation caused by rheumatoid arthritis.
+                      
+                      Many times, there is no single cause of carpal tunnel syndrome. It may be that a combination of risk factors contributes to the development of the condition.</p>
+
+<h3>Clinical features: </h3>
+<p>The patient is usually a middle aged woman, complaining of: </p>
+  <p>a. Tingling and numbness in thumb and radial 2½ fingers. </p>
+    <p>b. The tingling is more prominent during sleep. </p>
+      <p>c. There is a feeling of clumsiness while carrying out fine 
+movements. </p>
+<p>d. Sensory symptoms can often be reproduced by 
+percussing over the median nerve (Tinel's sign) or by 
+holding the wrist fully flexed for less than 60 seconds 
+(Phalen's test).</p>
+<h3>Treatment:</h3> 
+<p>Temporary relief: </p>
+  <p>1. Steroid injection into carpal tunnel. </p>
+    <p>2. Light splints that prevent wrist flexion. </p>
+      <p>Definitive surgery: </p>
+        <p>Open surgical division of transverse carpal ligament followed by decompression of 
+median nerve. </p>
+<p>Risk factors
+  A number of factors have been associated with carpal tunnel syndrome. Although they may not directly cause carpal tunnel syndrome, they may increase the risk of irritation or damage to the median nerve. These include:
+  
+  Anatomic factors. A wrist fracture or dislocation, or arthritis that deforms the small bones in the wrist, can alter the space within the carpal tunnel and put pressure on the median nerve.
+  
+  People who have smaller carpal tunnels may be more likely to have carpal tunnel syndrome.
+  
+  Sex. Carpal tunnel syndrome is generally more common in women. This may be because the carpal tunnel area is relatively smaller in women than in men.
+  
+  Women who have carpal tunnel syndrome may also have smaller carpal tunnels than women who don't have the condition.
+  
+  Nerve-damaging conditions. Some chronic illnesses, such as diabetes, increase the risk of nerve damage, including damage to the median nerve.
+  Inflammatory conditions. Rheumatoid arthritis and other conditions that have an inflammatory component can affect the lining around the tendons in the wrist and put pressure on the median nerve.
+  Medications. Some studies have shown a link between carpal tunnel syndrome and the use of anastrozole (Arimidex), a drug used to treat breast cancer.
+  Obesity. Being obese is a risk factor for carpal tunnel syndrome.
+  Body fluid changes. Fluid retention may increase the pressure within the carpal tunnel, irritating the median nerve. This is common during pregnancy and menopause. Carpal tunnel syndrome associated with pregnancy generally gets better on its own after pregnancy.
+  Other medical conditions. Certain conditions, such as menopause, thyroid disorders, kidney failure and lymphedema, may increase the chances of carpal tunnel syndrome.
+  Workplace factors. Working with vibrating tools or on an assembly line that requires prolonged or repetitive flexing of the wrist may create harmful pressure on the median nerve or worsen existing nerve damage, especially if the work is done in a cold environment.
+  
+  However, the scientific evidence is conflicting and these factors haven't been established as direct causes of carpal tunnel syndrome.
+  
+  Several studies have evaluated whether there is an association between computer use and carpal tunnel syndrome. Some evidence suggests that it is mouse use, and not the use of a keyboard, that may be the problem. However, there has not been enough quality and consistent evidence to support extensive computer use as a risk factor for carpal tunnel syndrome, although it may cause a different form of hand pain.</p>
+<p>Prevention
+  There are no proven strategies to prevent carpal tunnel syndrome, but you can minimize stress on the hands and wrists with these methods:
+  
+  Reduce your force and relax your grip. If your work involves a cash register or keyboard, for instance, hit the keys softly. For prolonged handwriting, use a big pen with an oversized, soft grip adapter and free-flowing ink.
+  Take short, frequent breaks. Gently stretch and bend hands and wrists periodically. Alternate tasks when possible. This is especially important if you use equipment that vibrates or that requires you to exert a great amount of force. Even a few minutes each hour can make a difference.
+  Watch your form. Avoid bending your wrist all the way up or down. A relaxed middle position is best. Keep your keyboard at elbow height or slightly lower.
+  Improve your posture. Incorrect posture rolls shoulders forward, shortening the neck and shoulder muscles and compressing nerves in the neck. This can affect the wrists, fingers and hands, and can cause neck pain.
+  Change your computer mouse. Make sure that your computer mouse is comfortable and doesn't strain your wrist.
+  Keep your hands warm. You're more likely to develop hand pain and stiffness if you work in a cold environment. If you can't control the temperature at work, put on fingerless gloves that keep the hands and wrists warm.</p>
+</body>
+{% endblock %}
+  
+  
+  
+  

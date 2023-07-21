@@ -1,0 +1,387 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            LOWER LIMB
+        </a></style>
+ <ul>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/fractureofpetalla">Fracture of Patella</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/rup">Ruptured Tendoachilles</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/aval">Avascular necrosis of femoral head </a></li>
+    
+                              </ul>
+  
+        
+  
+         
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+ <h2>Low Back Pain</h2>
+<h3> What causes low back pain?</h3>
+<p>The exact cause of low back pain can be hard to determine. In most cases, back pain may be a symptom of many different causes, including any of the following:</p>
+
+<p>Overuse, strenuous activity, or improper use (such as  repetitive or heavy lifting, exposure to vibration for prolonged periods of time)
+
+Injury,
+
+Degeneration of vertebrae (often caused by stresses on the muscles and ligaments that support the spine, or the effects of aging),
+
+Infection,
+
+Abnormal growth (tumor),
+
+Obesity (often increases weight on the spine and pressure on the disks),
+
+Poor muscle tone in the back,
+
+Muscle tension or spasm,
+
+Sprain or strain,
+
+Ligament or muscle tears,
+
+Joint problems (such as spinal stenosis),
+
+Smoking,
+
+Protruding or herniated (slipped) disk.
+
+Disease (such as osteoarthritis, spondylitis, compression fractures)</p>
+<h3>What are the symptoms of low back pain?</h3>
+<p>Low back pain is classified as acute (or short term) and chronic. Acute low back pain lasts from a few days to a few weeks. Most acute low back pain will resolve on its own. Chronic low back pain lasts for more than 3 months and often gets worse. The cause of chronic low back pain can be hard to find.  
+
+These are the most common symptoms of low back pain. Symptoms may include discomfort or pain in the lower back that is:</p>
+
+<p>Aching,
+
+Burning,
+
+Stabbing,
+
+Sharp or dull,
+
+Well-defined or vague,
+
+The pain may radiate into one or both buttocks or even into the thigh or hip area.
+
+The symptoms of low back pain may look like other conditions or medical problems. Always see your healthcare provider for a diagnosis.</p>
+<h3>How is low back pain diagnosed?</h3>
+<p>Along with a complete medical history and physical exam, tests for low back pain may include:
+
+X-ray. A test which uses electromagnetic energy beams to make images of bones onto film.
+
+CT scan. An imaging test that uses X-rays and computer technology to make horizontal, or axial, images (often called slices) of the body. A CT scan shows detailed images of any part of the body, including the bones, muscles, fat, and organs. CT scans are more detailed than general X-rays.
+
+MRI. A test that uses large magnets and a computer to make detailed images of organs and structures in the body.
+
+Radionuclide bone scan. A nuclear imaging technique that uses a very small amount of radioactive material, which is injected into the patient's bloodstream to be detected by a scanner. This test shows blood flow to the bone and cell activity within the bone.
+
+Electromyogram (EMG). A test to check nerve and muscle function.</p>
+
+<h3>How is low back pain treated?</h3>
+<p>Treatment may include:
+
+Activity modification,
+
+Medicine,
+
+Physical rehabilitation, therapy, or both,
+
+Osteopathic manipulation,
+
+Occupational therapy,
+
+Weight loss (if overweight),
+
+No smoking,
+
+Following a prevention program (as directed by your doctor),
+
+Surgery,
+
+Assistive devices (such as mechanical back supports),
+
+Rehabilitation is often a part of treatment for low back pain. Generally, there are 3 phases of low back pain rehabilitation.
+
+Acute phase. During this initial phase, the physiatrist (a doctor who specializes in rehabilitation medicine) and treatment team develop a plan to reduce the initial low back pain and source of inflammation. This may include using ultrasound, electrical stimulation, or specialized injections.
+
+Recovery phase. Once the initial pain and inflammation are better managed, the rehab team focuses on helping you return to normal daily activities while starting a specialized exercise program to regain flexibility and strength.
+
+Maintenance phase. In this phase, you will learn ways to prevent further injury and strain to the back, and how to start a fitness program to help further increase strength and endurance.
+</p>
+<h3>Can low back pain be prevented?</h3>
+<p>The following may help to prevent low back pain:
+
+Use correct lifting techniques,
+
+Maintain correct posture while sitting, standing, and sleeping.
+
+Exercise regularly (with proper stretching beforehand),
+
+Avoid smoking,
+
+Maintain a healthy weight,
+
+Reduce stress which may cause muscle tension.</p>
+
+<h3>When should I call my healthcare provider?</h3>
+<p>Call your healthcare provider if:
+
+Your pain becomes worse or spreads to your hips, thighs, or legs.
+
+Your pain medicine no longer works well for you,
+
+Your pain begins to interfere with your daily activities, or interferes with activities more than usual.
+
+Living with low back pain,
+Most back pain will ease in a few days to a few weeks. If the pain lasts longer than 3 months, it is considered chronic and you should talk with your healthcare provider. Recovery from low back pain can take time. To prevent back pain from coming back, it's important to follow good health practices, such as:
+
+Maintaining a healthy weight,
+
+Exercising regularly,
+
+Practicing good lifting techniques,
+
+Maintaining good posture while sitting, standing, and sleeping,
+
+Avoiding smoking.</p>
+    </body>
+ {% endblock %}

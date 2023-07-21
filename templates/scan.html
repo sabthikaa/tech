@@ -1,0 +1,325 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+      <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          MISCELLANEOUS
+      </a></style>
+<ul>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/bone">Bone graft </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/external">External fixation</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/ideal"> Ideal amputation 
+  stump</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/codman">Codman's triangle</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/scan">Bone scan </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/paget">Paget's disease of bone</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/tension">Tension band 
+  wiring</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/sp">SP Nail</a></li>
+  
+                            </ul>
+  
+        
+  
+         
+
+
+
+                          </div>
+
+
+                        </body>
+                        </html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+<h2>  Bone scan</h2> 
+<div="img">
+        
+        
+<center><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611848/bin/gr2c.jpg" width="300" height="300"></center>
+</div>
+<p>A bone scan is a test that uses nuclear imaging to helps diagnose and track several types of bone disease. Nuclear imaging involves using small amounts of radioactive substances (radiotracers), a special camera that can detect the radioactivity and a computer to see structures such as bones inside the body.
+
+  The tracer is absorbed more by cells and tissues that are changing. As a result, a bone scan can be used to find the source of unexplained skeletal pain, a bone infection or a bone injury that can't be seen on a standard X-ray.
+  
+  A bone scan can also be an important tool for detecting cancer that has spread (metastasized) to the bone from the tumor's original location, such as the breast or prostate.</p>
+<p>It is a procedure in which a bone seeking radioisotope is injected intravenously 
+and photon emission by these nucleotides taken up by bone is recorded by either 
+simple scanner or Gamma camera, to produce an image which reflects the 
+current activity of the tissue. </p>
+<p>A bone scan might help determine the cause of unexplained bone pain. The test is sensitive to differences in bone metabolism, which are highlighted in the body by the radioactive tracer. Scanning the whole skeleton helps in diagnosing a wide range of bone disorders, including:
+
+  Fractures
+  Arthritis
+  Paget's disease of bone
+  Cancer originating in bone
+  Cancer that has metastasized to bone from a different site
+  Infection of the joints, joint replacements or bones</p>
+  <p>A bone scan carries no greater risk than conventional X-rays. The tracers in the radioactive substance used in a bone scan produce very little radiation exposure. The risk of having an allergic reaction to the tracers is low.
+
+    However, the test may be unsafe for pregnant or breastfeeding women. There is a risk of injury to the fetus and of contaminating breast milk. Make sure to tell your doctor if you’re pregnant or breastfeeding.</p>
+
+<h3>Phases: </h3>
+<p>After the isotope is injected intravenously, its activity is recorded in 2 phases: </p>
+<p>1. Early perfusion phase: Shortly after injection, when the contrast is still in 
+the blood stream/ perivascular space </p>
+<p>2. Bone phase: After 3 hours when isotope has been taken up by the bone. </p>
+
+<h3>Findings:</h3> 
+<p>Normal findings Abnormal findings 
+In early perfusion phase, the 
+vascular soft tissue around the 
+joint produces the darkest image. 
+↑Activity Due to ↑soft tissue ďlood flow: 
+Acute/ chronic synovitis/ a highly 
+vascular tumor/ fracture/ regional 
+sympathetic dystrophy. 
+↓Activity Local vascular insufficiency 
+After 3 hours of injection, this 
+activity fades away and the bone 
+outlines get more clear.</p> 
+
+<h3>Indications:</h3> 
+<p> Diagnosis of stress fracture that are not evident on plain X-Ray </p>
+<p> Detection of small bone abscess/ an osteoid osteoma </p>
+<p> Investigation of loosening of/ infection around a prosthesis </p>
+<p> Diagnosis of femoral head ischemia in Perthes’ disease or avascular necrosis
+in adults </p>
+<p> Early detection of bone metastasis. </p>
+<p>The procedure begins with an injection of radioactive substance in your vein. The substance is then allowed to work its way through your body for the next two to four hours. Depending on the reason for the bone scan, your doctor may begin imaging immediately.
+
+  As the substance spreads through your body, the bone’s cells naturally gravitate to areas that need repair. The substance’s radioactive tracers follow these cells and collect in spots where bone is damaged. It’s taken up in regions that have a high blood flow.
+  
+  After enough time has passed, your doctor will use a special camera to scan the bones. The damaged areas — where the substance has settled — appear as dark spots on the image.
+  
+  Your doctor may repeat the injection and imaging process if the first round wasn’t conclusive. They may also order a single-photon emission computed tomography (SPECT). This is similar to a bone scan, except the imaging process creates 3-D images of your bones. A SPECT is necessary if your doctor needs to see deeper into your bones. They may also use it if the original images weren’t clear in certain areas.</p>
+</body>
+{% endblock %}

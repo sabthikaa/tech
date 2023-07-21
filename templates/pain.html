@@ -1,0 +1,368 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+      <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          MISCELLANEOUS
+      </a></style>
+<ul>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/bone">Bone graft </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/external">External fixation</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/ideal"> Ideal amputation 
+  stump</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/codman">Codman's triangle</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/scan">Bone scan </a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/paget">Paget's disease of bone</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/tension">Tension band 
+  wiring</a></li>
+  <li><a class="dropdown-item" href="http://127.0.0.1:8000/sp">SP Nail</a></li>
+  
+                            </ul>
+  
+        
+  
+         
+
+
+
+
+
+                        </div>
+
+
+                    </body>
+                    </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    
+   <h3> What is the shoulder?</h3>
+<p>The shoulder is made up of several layers, including the following:</p>
+
+<p>Anatomy of the shoulder<p>
+
+    <p>Bones. The collarbone (clavicle), the shoulder blade (scapula), and the upper arm bone (humerus).<p>
+
+        <p>Joints. Facilitate movement, including the following:<p>
+
+            <p>Sternoclavicular joint (where the clavicle meets the sternum)<p>
+
+                <p>Acromioclavicular (AC) joint (where the clavicle meets the acromion)<p>
+
+                    <p>Shoulder joint (glenohumeral joint). A ball-and-socket joint that facilitates forward, circular, and backward movement of the shoulder.<p>
+
+                        <p>Ligaments. A white, shiny, flexible band of fibrous tissue that binds joints together and connects various bones and cartilage, including the following:<p>
+
+                            <p>Joint capsule. A group of ligaments that connect the humerus to the socket of the shoulder joint on the scapula to stabilize the shoulder and keep it from dislocating.<p>
+
+                                <p>Ligaments that attach the clavicle to the acromion<p>
+
+                                    <p>Ligaments that connect the clavicle to the scapula by attaching to the coracoid process<p>
+
+                                        <p>Acromion. The roof (highest point) of the shoulder that is formed by a part of the scapula.<p>
+
+                                            <p>Tendons. The tough cords of tissue that connect muscles to bones. The rotator cuff tendons are a group of tendons that connect the deepest layer of muscles to the humerus.<p>
+
+                                                <p>Muscles (to help support and rotate the shoulder in many directions)<p>
+
+                                                    <p>Bursa. A closed space between 2 moving surfaces that has a small amount of lubricating fluid inside; located between the rotator cuff muscle layer and the outer layer of large, bulky muscles.<p>
+
+                                                        <p>Rotator cuff. Composed of tendons, the rotator cuff (and associated muscles) holds the ball of the glenohumeral joint at the top of the upper arm bone (humerus).<p>
+
+                                                            <p>Shoulder pain may be localized in a specific area or may spread to areas around the shoulder or down the arm.<p>
+
+<h3>What causes shoulder problems?</h3>
+<p>Although the shoulder is the most movable joint in the body, it is also an unstable joint because of its range-of-motion. Because the ball of the upper arm is larger than the socket of the shoulder, it is susceptible to injury. The shoulder joint must also be supported by soft tissues muscles, tendons, and ligaments which are also subject to injury, overuse, and under use.
+
+Degenerative conditions and other diseases in the body may also contribute to shoulder problems, or generate pain that travels along nerves to the shoulder.</p>
+<p>What are some of the different types of shoulder problems?</p>
+<p>Common shoulder problems include the following:</p>
+
+<p>Dislocation. </p>
+<p>The shoulder joint is the most frequently dislocated major joint of the body often caused by a significant force that separates the shoulder joint's ball (the top rounded portion of the upper arm bone, or humerus) away from the joint's socket (glenoid).
+</p>
+
+<p>Separation. The AC joint becomes separated when the ligaments attached to the collarbone (clavicle) are torn, or partially torn, away from the shoulder blade (scapula). Shoulder separation may be caused by a sudden, forceful blow to the shoulder, or as a result of a fall.
+Bursitis. Bursitis often occurs when tendonitis and impingement syndrome cause inflammation of the bursa sacs that protect the shoulder.
+Impingement syndrome. Impingement syndrome is caused by the excessive squeezing or rubbing of the rotator cuff and shoulder blade. The pain associated with the syndrome is a result of an inflamed bursa (lubricating sac) over the rotator cuff, and/or inflammation of the rotator cuff tendons, and/or calcium deposits in tendons due to wear and tear. Shoulder impingement syndrome can lead to a torn rotator cuff.
+</p>
+
+<p>Tendinosis. Tendinosis of the shoulder is caused when the rotator cuff and/or biceps tendon become worn out and occasionally inflamed, usually as a result of being pinched by surrounding structures. The injury may vary from mild inflammation to involvement of most of the rotator cuff. When the rotator cuff tendon becomes inflamed and thickened, it may become trapped under the acromion.
+Rotator cuff tear. A rotator cuff tear involves 1 or more rotator cuff tendons becoming inflamed from overuse, aging, a fall on an outstretched hand, or a collision.
+Adhesive capsulitis (frozen shoulder). Frozen shoulder is a severely restrictive condition frequently caused by injury that, in turn, leads to lack of use due to pain. Intermittent periods of use may cause inflammation and adhesions to grow between the joint surfaces, thus restricting motion. There is also a lack of synovial fluid to lubricate the gap between the arm bone and socket that normally helps the shoulder joint to move. This restricted space between the capsule and ball of the humerus distinguishes adhesive capsulitis from the less complicated condition known as stiff shoulder.
+
+Fracture. A fracture is a partial or total crack or break through a bone that usually occurs due to a impact injury.</p>
+
+<h3>How are shoulder problems diagnosed?</h3>
+<p>In addition to a complete medical history and physical examination (to determine range-of-motion, location of pain, and level of joint instability/stability), diagnostic procedures for shoulder problems may include the following:
+
+X-ray. A diagnostic test that uses invisible electromagnetic energy beams to produce images of internal tissues, bones, and organs onto film.
+
+Magnetic resonance imaging (MRI). A diagnostic procedure that uses a combination of large magnets, radiofrequencies, and a computer to produce detailed images of organs and structures within the body; can often determine damage or disease in a surrounding ligament or muscle.
+
+Computed tomography scan (also called a CT or CAT scan). A diagnostic imaging procedure that uses a combination of X-rays and computer technology to produce horizontal, or axial, images (often called slices) of the body. A CT scan shows detailed images of any part of the body, including the bones, muscles, fat, and organs. CT scans are more detailed than general X-rays.
+
+Electromyogram (EMG). A test to evaluate nerve and muscle function.
+
+Ultrasound. A diagnostic technique that uses high-frequency sound waves to create an image of the internal organs.
+
+Laboratory tests (to determine if other problems may be the cause)
+
+Arthroscopy. A minimally-invasive diagnostic and treatment procedure used for conditions of a joint. This procedure uses a small, lighted, optic tube (arthroscope) that is inserted into the joint through a small incision in the joint. Images of the inside of the joint are projected onto a screen; used to evaluate any degenerative and/or arthritic changes in the joint; to detect bone diseases and tumors; to determine the cause of bone pain and inflammation.
+</p>
+
+<h3>Treatment of shoulder problems</h3>
+<p>Specific treatment of shoulder problems will be determined by your doctor based on:
+
+Your age, overall health, and medical history,
+
+Extent of the condition,
+
+Your tolerance for specific medications, procedures, or therapies,
+
+Expectations for the course of the condition,
+
+Your opinion or preference,
+
+Treatment may include:
+
+Activity modification,
+
+Rest,
+
+Physical therapy,
+
+Medications,
+
+Surgery.</p>
+   
+</body>
+{% endblock %}

@@ -1,0 +1,350 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            SPINE AND VERTEBRA
+        </a></style>
+ <ul>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/slipp"> Slipped Disc</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/spon">Spondylolisthesis</a></li>
+   
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/clinical">Clinical Feature Of TB Spine</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/gibbus">Gibbus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/bifida">Spine Bifida</a></li>
+    
+  
+                              </ul>
+  
+        
+  
+         
+
+
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h2>kyphosis</h2>
+   
+     <h3>   What is kyphosis?    </h3>
+     <p>     A normal spine, when viewed from behind, appears straight. However, a spine affected by kyphosis shows evidence of a forward curvature of the back bones (vertebrae) in the upper back area, giving an abnormally rounded or “humpback” appearance.
+    </p> 
+
+      <p> What are the different types of kyphosis? </p> 
+
+        <p> Postural kyphosis, or postural roundback, is thoracic kyphosis greater than 50 degrees with normal-shaped vertebrae. This type of kyphosis is flexible and often improves with exercises.
+
+Scheuermann’s kyphosis refers to a type of kyphosis where the vertebrae have developed a wedge shape. This type of kyphosis is more rigid and can worsen with growth. This occurs in 0.4 percent of the population, with males and females affected equally.
+
+Congenital Kyphosis
+A diagnosis of congenital kyphosis assumes a difference in the shape of one or more vertebrae. This difference is present at birth. The child is noted at birth to have an outward curve of the spine. This curve may become more noticeable with growth.
+</p> 
+<h3> What causes kyphosis? </h3> 
+  <p> Kyphosis can be congenital (present at birth) or due to acquired conditions that may include the following:
+
+Metabolic problems,
+
+Neuromuscular conditions,
+
+Osteogenesis imperfecta, also called brittle bone disease; a condition that causes bones to fracture with minimal force.
+
+Spina bifida,
+
+Scheuermann’s kyphosis: a condition that causes the vertebrae to curve forward in the upper back area; the cause of Scheuermann’s kyphosis is unknown and is commonly seen in males.
+
+Postural kyphosis: the most common type of kyphosis; it generally becomes noticeable in adolescence and can be associated with slouching versus a spinal abnormality. Exercise is used to help correct posture.
+
+Kyphosis is more common in females than males. </p> 
+
+<h3> What are the symptoms of kyphosis? </h3> 
+  <p> The following are the most common symptoms of kyphosis. However, each individual may experience symptoms differently. Symptoms may include:
+
+Difference in shoulder height
+
+The head bends forward compared to the rest of the body
+
+Difference in shoulder blade height or position
+
+When bending forward, the height of the upper back appears higher than normal
+
+Tight hamstrings (back thigh) muscles
+
+Back pain may be present, but rarely is it significant enough to impact normal activity
+
+Parents and loved ones may comment on the child’s “poor posture” or use the words “humpback” or “hunchback” to describe the child’s posture. </p> 
+
+<h3> What are the risk factors of kyphosis? </h3> 
+  <p> Two risk factors for developing kyphosis are having osteoporosis or low bone density, or having a family member with the condition. </p> 
+
+    <p> How is kyphosis diagnosed? </p> 
+      <p> The doctor makes the diagnosis of kyphosis with a complete medical history, physical examination and diagnostic tests. If the patient is a child, the doctor obtains a complete prenatal and birth history of him or her and asks if other family members are known to have kyphosis. The doctor will also ask about developmental milestones, since some types of kyphosis can be associated with other neuromuscular disorders. Developmental delays may require further medical evaluation.
+
+Diagnostic procedures may include the following:
+
+X-rays. A diagnostic test that uses invisible electromagnetic energy beams to produce images of internal tissues, bones and organs onto film. This test is used to measure and evaluate the curve. With the use of a standing lateral, full-spine X-ray, the doctor or radiologist measures the angle of the spinal curve. A curve greater than 50 degrees is considered abnormal or hyperkyphosis.
+
+Early detection of kyphosis is important for successful treatment. Pediatricians or family doctors, and even some school programs, routinely look for signs that kyphosis may be present.
+
+Treatment of Kyphosis
+Other than possible pain, kyphosis — except for the congenital variety — rarely produces harmful effects on the important organs and structures inside the body. Treatment is therefore based on the symptoms a person may be experiencing. For example, for those complaining of pain, exercises to strengthen the core muscles and pain-relieving medications are used. For those concerned with how the curvature appears, bracing or postural exercises may be used.
+
+Surgery is only needed in severe cases of kyphosis.
+
+In deciding the treatment for kyphosis, we consider the child’s age and amount of growth remaining. We also consider the degree of deformity and presence/absence of back pain.
+
+Exercise
+For mild increases in kyphosis and the flexible postural curves, physical therapy is often prescribed. A daily home exercise program focusing on core strengthening and back extensor stretching and strengthening is often successful in managing the problem appearance and pain associated with kyphosis.
+
+Bracing
+X-ray slide showing the improved spinal curve after bracing for kyphosis
+A Milwaukee brace or a supraclavicular brace are used to prevent worsening and often even correct kyphosis in actively growing children. The brace is prescribed by an orthopaedic specialist and made by an orthotist. A brace is indicated in actively growing children with kyphosis curves greater than 65 degrees. The brace is typically prescribed to be worn 23 hours a day until the adolescent is done growing.
+
+Surgery
+An adolescent with severe kyphosis causing pain or appearance concerns may elect to have this deformity fixed with surgery. The surgery for kyphosis is a posterior spinal fusion with instrumentation. The surgery itself takes four to five hours with a hospital stay of three to four days. The recovery is typically four to six weeks at home.
+
+This surgery involves exposing the bones and muscles of the spine through an incision made straight down the middle of the back. The incision is only the length of the deformity needing correction. The bones of the spine are released and prepared.
+
+Illustration showing the pedicle screw through the pedicle
+Then, 2-inch screws made of titanium are placed in the pedicles. Each vertebra has a strong strut of bone on either side called a pedicle. The center of the vertebral column is hollow, forming a channel to house the spinal cord and cerebrospinal fluid. Extreme caution is taken to protect the spinal cord. Steps we take include pedicle screw placement using real-time X-ray (fluoroscopy) for guidance and continuous monitoring of the activity of the spinal cord. This is done by placing electrodes on the child from the head to the toes and measuring the signals back and forth. A specialist called a neurophysiologist is in charge of interpreting the spinal cord monitoring and alerting the surgeon of any changes.
+
+Once all the pedicle screws are in position, the kyphosis is corrected. This is a maneuver performed by the surgeon allowing for correction of the arch in the spine. The rods, made of cobalt chrome, are then threaded through the screws and the screws are locked down. Bone graft is taken from the patient’s own rib. This is cut into small matchsticks and packed in along the back of the spine to create the spinal fusion.
+
+X-ray slide showing the improved spinal curve after surgery for kyphosis
+Finally, the muscle layers are closed with stitches that dissolve inside the body. The outermost skin layer is closed with butterfly closures or stitch tapes. These adhesive stitches fall off on their own, after the skin has knit itself back together.
+     </p> 
+    {% endblock %}

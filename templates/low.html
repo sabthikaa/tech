@@ -1,0 +1,289 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            LOWER LIMB
+        </a></style>
+ <ul>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/fractureofpetalla">Fracture of Patella</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/rup">Ruptured Tendoachilles</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:8000/aval">Avascular necrosis of femoral head </a></li>
+    
+                              </ul>
+  
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h2> LOWER LIMB </h2>
+    <div="img">
+        
+        
+    <center><img src="https://www.howtorelief.com/wp-content/uploads/2017/09/bones-of-the-lower-limb.jpg" width="300" height="300"></center>
+ </div>
+      <p>The basic structure of the lower limb is similar to that of the upper limb, but it is modified to support the weight of the body and for walking. The lower limb is divided into the thigh (between the hip and knee joints), gluteal area (region of the buttocks), leg (between the knee and ankle), and foot (from the heel to the toes).
+
+        The lower limb joins the pelvic girdle at the hip joint.<a href="http://127.0.0.1:8000/hipfracture/">(Hip Fracture)</a>
+        <a name="Hip Fracture"></a>Hip Join which join anteriorly at the pubic symphysis and posteriorly to the sacrum at the sacro-iliac joints.
+        
+        The lower limb is supported by heavy bones that have pronounced areas for muscle and ligament attachment. The femur articulates superiorly with the pelvis at the hip joint and inferiorly with the tibia at the knee joint. The tibia and fibula articulate with each other proximally and distally at the tibiofibular joint and tibiofibular syndesmosis, respectively. </p>
+        
+        <p>   <a href="http://127.0.0.1:8000/foot/">FOOT </a>
+          <a name="foot"></a> The foot is one of the most complex parts of the body. It is made up of 26 bones connected by many joints, muscles, tendons, and ligaments. The foot is susceptible to many stresses. Foot problems can cause pain, inflammation, or injury. These problems can result in limited movement and mobility.
+        </p> 
+        <h2>KNEE REPLACEMENT</h2>
+        <div="img">
+            
+                <center><img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Knee_Replacement.png" width="300" height="300"></center>
+          </div> 
+    <p>Knee replacement, also known as knee arthroplasty, is a surgical procedure to replace the weight-bearing surfaces of the knee joint to relieve pain and disability, most commonly offered when joint pain is not diminished by conservative sources[1][2] and also for other knee diseases such as rheumatoid arthritis and psoriatic arthritis. In patients with severe deformity from advanced rheumatoid arthritis, trauma, or long-standing osteoarthritis, the surgery may be more complicated and carry higher risk. Osteoporosis does not typically cause knee pain, deformity, or inflammation and is not a reason to perform knee replacement.
+        Other major causes of debilitating pain include meniscus tears, cartilage defects, and ligament tears. Debilitating pain from osteoarthritis is much more common in the elderly.
+        Knee replacement surgery can be performed as a partial or a total knee replacement.[3] In general, the surgery consists of replacing the diseased or damaged joint surfaces of the knee with metal and plastic components shaped to allow continued motion of the knee.
+        
+        <a href="http://127.0.0.1:8000/medical/">Medical Uses:</a>
+        <a name="medical"></a></p>
+    
+         
+            <h2>Low Back Pain  </h2>
+           <p> Low back pain can range from mild, dull, annoying pain, to persistent, severe, disabling pain in the lower back. Pain in the lower back can restrict mobility and interfere with normal functioning.
+          
+                
+        <a href="http://127.0.0.1:8000/back/">Low Back Pain  </a>
+        <a name="back"></a></p>
+    </body>
+ {% endblock %}

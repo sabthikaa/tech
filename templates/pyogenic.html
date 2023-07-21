@@ -1,0 +1,372 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            BONE AND JOINTS
+        </a></style>
+ 
+  <ul >
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/pyogenic">Pyogenic osteomyelitis, Etiopathogenesis:</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/ring">Ring sequestrum</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/brodie">Brodie's Adscess</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/tb">TB Hip Joint</a></li>   
+  </ul>
+
+        
+  
+         
+
+
+</div>
+
+
+</body>
+</html>
+  
+
+
+<style type="text/css">
+
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+    <h2>Pyogenic osteomyelitis, Etiopathogenesis:</h2>
+    <div="img">
+        
+        
+   <center><img src="https://image1.slideserve.com/2627425/pyogenic-osteomyelitis6-l.jpg" width="300" height="300"></center>
+</div>
+    <p>Infection of bone by any pyogenic organism is called pyogenic osteomyelitis. It is 
+    of 2 types: acute and chronic. </p>
+    <h2>Acute pyogenic osteomyelitis </h2>
+    <h3>Responsible organisms</h3>
+    <p>Staphylococcus aureus (commonest), followed by streptococcus and 
+    pneumococcus. </p>
+    <h2>Route of entry to bone</h2>
+    <p>1. Primary/ hematogenous (commonest, often seen in children) </p>
+        <p>2. Secondary (following an open fracture/ bone operation, less common). </p>
+    <h3>Etiopathogenesis:</h3>
+    <p>1. ͚Hairpin arrangement of the vessels in the metaphysis of long bone makes 
+    the blood flow sluggish in this area and makes this area being the 
+    commonest area to lodge the organisms (lower femoral metaphysis is the 
+    commonest among them). </p>
+    <p>2. The host bone initiates an inflammatory reaction in response to the 
+    bacteria. This leads to bone destruction and production of an inflammatory 
+    exudate which may spread to the following directions: </p>
+    <p>Spread of pus from metaphysis:</p>
+     <p>A) Along medullary cavity</p>
+     <p>B) Out of the cortex</p>
+     <p>C) To the joint</p>
+     <p>D) Abscess formation</p>
+    
+    <p>1. Along the medullary cavity: </p>
+    <p>The pus may spread along the medullary cavity, causing thrombosis of 
+    medullary arteries and veins; cutting blood supply to a portion of bone.</p> 
+    <p>2. Out of the cortex: </p>
+    <p>The pus travels along Volkmann's canals and coŵes to lie suď-periosteally. 
+    The periosteum is thus lifted off the underlying bone, resulting in damage 
+    to the periosteal blood supply to a part of the bone. 
+    A segment of bone is thus rendered avascular and is called sequestrum.</p> 
+    <p>3. Abscess and sinus formation: </p>
+    <p>Eventually the periosteum is perforated, letting the pus out into the muscle 
+    or subcutaneous plane, where it can be felt as an abscess. The abscess, if 
+    unattended, bursts out of the skin, forming a discharging sinus. 
+    <p>4. To the joint:</p>
+   <p> The capsular attachment at the epiphysis - metaphysis junction prevents 
+    the pus from entering the nearby joint. In joints with an intra-articular 
+    metaphysis, the pus can spread to the joint and cause acute pyogenic 
+    arthritis e.g., hip, shoulder etc.</p>
+  <h3>Diagnosis: </h3>
+   <p> Parts of diagnosis Description 
+    <p>Age - Childhood </p>
+    <p>  History -  A recent history of infection (Ex: sore throat, ear discharge etc.) </p>
+   <p> Chief complaints:</p><p>  Acute onset of pain and swelling at the end of a bone 
+    <p> Systemic symptoms like fever, malaise etc. </p>
+    <p>Examination :</p> Pulse rate is very high and temperature is raised</p> 
+    <p> Acute tenderness near one of the largest joints </p>
+    <p> Joint movement is restricted (pseudoparalysis) </p>
+    <p> Local signs of inflammation (redness, edema, swelling, 
+    warmth) are usually late features and signifies that pus has 
+    escaped from the interior of the bone.</p> 
+    <p>Investigation</p><p>  Blood: C‘P↑, ES‘↑, WBC count↑ (PMN leucocytes)</p>
+   <p>  X-Ray: Earliest classic sign is periosteal new bone formation at 
+    the metaphysis (by the 2nd weeks) </p>
+    <p> Confirmatory: The most certain way to confirm the clinical 
+    diagnosis is to aspirate pus or fluid from the metaphyseal 
+    17
+    subperiosteal abscess/ extra-osseous soft tissues/ an adjacent 
+    joint, followed by gram stain. </p>
+    <p>Complications:</p> 
+      <p>1. Chronic osteomyelitis 
+      2. Acute pyogenic arthritis 
+      3. Pathological fracture 
+      4. Growth plate disturbances causing deformity of the limb. </p>
+      <h2>Chronic osteomyelitis </h2>
+        <p>Causes: </p>
+        <p>1. Delayed and inadequate treatment 
+        2. Reduced host resistance (malnutrition/ HIV etc.) </p>
+        
+       <p> Diagnosis: </p>
+        
+        <p>Chief complaints</p>
+        <p>  A chronic discharging sinus </p>
+          <p> The type discharge is sero-purulent </p>
+            <p> Pain & fever become evident in times of acute exacerbations. </p>
+              <p>Examination</p> <p> A chronic discharging sinus </p>
+                <p> Thickened, irregular bone when compared to the normal side </p>
+                  <p> Mild tenderness on deep palpation </p>
+                    <p> Stiffness of the adjacent joint may be present. </p>
+                      <p>Investigation</p><p>  X-Ray: </p>
+                        <p> Thickening and irregularity of the cortices </p>
+                          <p> Patchy sclerosis giving the bone a honeycomb appearance </p>
+                            <p> Sequestrum and involucrum may be visible. </p>
+                              <p>Treatment: </p>
+                                <p>Aims of surgery: </p>
+                                  <p>1. Removal of dead bone </p>
+                                    <p>2. Elimination of dead space </p>
+                                      <p>3. Removal of infected granulation tissue and sinus. </p>
+                                        <p>Surgical options: </p>
+        <p>
+        Sequestrectomy A window is made in the overlying 
+        involucrum and the sequestrum removed. 
+        One must wait for adequate involucrum 
+        formation before performing 
+        sequestrectomy. </p>
+      
+       <p> Saucerization The bone-cavity is converted into a 
+        'saucer' by removing its wall. This allows 
+        free drainage of the infected material. </p>
+        <p>Curettage The wall of the cavity, lined by infected granulation tissue, is curetted 
+        until the underlying normal-looking bone is seen. </p>
+        <p>Excision of the 
+        infected bone 
+        It is done when the affected bone can be excised en-bloc without 
+        compromising the functions of the limb.</p> 
+        <p>Amputation It is preferred in a long standing discharging sinus when sinus undergoes 
+        malignant change. </p>
+
+    {% endblock %}

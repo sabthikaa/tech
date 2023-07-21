@@ -1,0 +1,377 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            MISCELLANEOUS
+        </a></style>
+ <ul>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/bone">Bone graft </a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/external">External fixation</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/ideal"> Ideal amputation 
+    stump</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/codman">Codman's triangle</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/scan">Bone scan </a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/paget">Paget's disease of bone</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/tension">Tension band 
+    wiring</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/sp">SP Nail</a></li>
+    
+                              </ul>
+  
+        
+  
+         
+
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:blue;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:blue;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+
+</style>
+<body>
+    <h2>Bursitis </h2>
+    <h3>What is bursitis?</h3>
+    <p> Bursitis is inflammation of a bursa. A bursa is a closed, fluid-filled sac that works as a cushion and gliding surface to reduce friction between tissues of the body. The major bursae (this is the plural of bursa) are located next to the tendons near the large joints, such as in the shoulders, elbows, hips, and knees.
+        
+        Bursitis is usually a temporary condition. It may limit motion, but generally does not cause deformity.
+        
+        Bursitis can happen in any bursa in the body, but there are some common types of bursitis, including:
+        
+        <p>Retromalleolar tendon bursitis. This type of bursitis is also called Albert disease. It’s caused by things like injury, disease, or shoes with rigid back support. These put extra strain on the lower part of the Achilles tendon. This attaches the calf muscle to the back of the heel. This can lead to inflammation of the bursa located where the tendon attaches to the heel.
+        </p>
+        <p> Posterior Achilles tendon bursitis. This type of bursitis, also called Haglund deformity, is in the bursa located between the skin of the heel and the Achilles tendon. This attaches the calf muscles to the heel. It is aggravated by a type of walking that presses the soft heel tissue into the hard back support of a shoe.
+        </p>
+        <p> Hip bursitis. Also called trochanteric bursitis, hip bursitis is often the result of injury, overuse, spinal abnormalities, arthritis, or surgery. This type of bursitis is more common in women and middle-aged and older people.
+        </p>
+        <p>Elbow bursitis. Elbow bursitis is caused by the inflammation of the bursa located between the skin and bones of the elbow (the olecranon bursa). Elbow bursitis can be caused by injury or constant pressure on the elbow (for example, when leaning on a hard surface).
+        </p>
+        <p>Knee bursitis. Bursitis in the knee is also called goosefoot bursitis or Pes Anserine bursitis. The Pes Anserine bursa is located between the shin bone and the three tendons of the hamstring muscles, on the inside of the knee. This type of bursitis may be caused by lack of stretching before exercise, tight hamstring muscles, being overweight, arthritis, or out-turning of the knee or lower leg.
+        </p>
+        <p>Kneecap bursitis. Also called prepatellar bursitis, this type of bursitis is common in people who are on their knees a lot, such as carpet layers and plumbers.
+      </p>
+      <h3>What causes bursitis?</h3>
+      <p>The most common causes of bursitis are injury or overuse. Infection may also cause it.
+        
+        Bursitis is also associated with other problems. These include arthritis, gout, tendonitis, diabetes, and thyroid disease.
+      </p>
+      <p> What are the symptoms of bursitis?</p>
+      <p>The following are the most common symptoms of bursitis. However, each person may experience symptoms differently.
+        
+        Pain,
+        
+        Localized tenderness,
+        
+        Limited motion,
+        
+        Swelling and redness if the inflamed bursa is close to the surface of the skin,
+        
+        Chronic bursitis may involve repeated attacks of pain, swelling, and tenderness. These may lead to the deterioration of muscles and a limited range of motion in the affected joint.
+        
+        The symptoms of bursitis may resemble other medical conditions or problems. Always see a healthcare provider for a diagnosis.
+      </p>
+      <h3>How is bursitis diagnosed?</h3>
+      <p>In addition to a complete medical history and physical exam, diagnostic tests for bursitis may include:
+        
+        X-ray. A diagnostic test that uses invisible electromagnetic energy beams to make pictures of internal tissues, bones, and organs on film.
+        
+        Magnetic resonance imaging (MRI). An imaging test that uses a combination of large magnets, radiofrequencies, and a computer to make detailed pictures of organs and structures within the body.
+        
+        Ultrasound. An imaging test that uses high-frequency sound waves to look at the internal organs and tissues.
+        
+        Aspiration. A procedure that involves using a thin needle to remove fluid from the swollen bursa to check for infection or gout as causes of bursitis.
+        
+        Blood tests. Lab tests may be done to confirm or rule out other conditions.
+      </p>
+      <h3>How is bursitis treated?</h3>
+      <p>The treatment of any bursitis depends on whether or not it involves infection.
+        
+        Aseptic bursitis. This inflammation results from local soft-tissue trauma or strain injury. The bursa is not infected. Treatment may include:
+        
+        R.I.C.E. This stands for rest, ice, compression, and elevation,
+        
+        Anti-inflammatory and pain medicines, such as ibuprofen or aspirin,
+        
+        Injection of a steroid into the affected area to help decrease pain and swelling,
+        
+        Splints or braces to limit movement of the affected joint ,
+        
+        Septic bursitis. The bursa becomes infected with bacteria. This causes pain and swelling. Treatment may include:
+        
+        Antibiotics,
+        
+        Repeated aspiration of the infected fluid (a needle is used to take out the fluid),
+        
+        Surgical drainage and removal of the infected bursa. This is called a bursectomy.
+      </p>
+      <h3> What can I do to prevent bursitis?</h3>
+      <p>Try the following measures to prevent bursitis:
+        
+        Warm up before exercising or before sports or other repetitive movements.
+        
+        Start new exercises or sports slowly. Gradually increase the demands you put on your body.
+        
+        Take breaks often when doing repetitive tasks.
+        
+        Cushion “at risk” joints by using elbow or knee pads.
+        
+        Stop activities that cause pain.
+        
+        Practice good posture. Position your body properly when doing daily activities.
+      </p>
+        <h3>When should I call my healthcare provider?</h3>
+        <p>Call your healthcare provider if you have any of the following:
+        
+        Pain or trouble moving affects your regular daily activities,
+        
+        Pain doesn’t get better or gets worse with treatment,
+        
+        A bulge or lump develops at the affected joint,
+        
+        Redness or swelling develops at the affected joint,
+        
+        You have fever, chills, or night sweats,
+        
+        Key points about bursitis,
+        Bursitis is inflammation of a bursa, a closed, fluid-filled sac that works as a cushion and gliding surface to reduce friction between tissues of the body.
+        
+        The most common causes of bursitis are injury or overuse, but it can also be caused by infection.
+        
+        Pain, swelling, and tenderness near a joint are the most common signs of bursitis.
+        
+        Bursitis can be treated with rest and medicines to help with the inflammation. Antibiotics are used if infection is found. If needed, surgery can be done to remove the bursa.
+        
+        You can help prevent bursitis by doing things like warming up before exercise or sports, increasing activity slowly, padding joints, taking rest breaks often, and stopping activities that cause pain.</p>
+        {% endblock %}

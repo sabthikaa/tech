@@ -1,0 +1,334 @@
+{% extends 'index.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Drop Down Menu CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+	
+</head>
+<style>
+
+
+
+    
+  .sidenav {
+       
+    background-color:white;
+    height:14000px;
+    width:500px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height:40px;
+   
+
+  
+   
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+
+  
+  }
+
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+nav {
+background-color: black;
+}
+
+nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+}
+
+nav ul li {
+display:inline-block;
+background-color: black;
+}
+
+nav a {
+display:block;
+padding:0 40px;	
+color:#FFF;
+font-size:20px;
+line-height: 100px;
+text-decoration:none;
+}
+
+nav a:hover { 
+background-color: rgba(0, 0, 0, 0.4);
+color: #fff;
+}
+
+/* Fisrt level Dropdown */
+nav ul ul li {
+width:500px;
+float:none;
+display:list-item;
+position: relative;
+}
+
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+position: relative;
+top:-60px; 
+left:170px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+display: none;
+position: absolute; 
+top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+display:inherit;
+}
+</style>
+<body>
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+         
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+           
+      
+            </div>
+        </div>
+    </div>
+</header>
+
+		
+<div class="ScriptTop">
+    <div class="rt-container">
+        <div class="col-rt-4" id="float-right">
+ 
+            <!-- Ad Here -->
+            
+        </div>
+        <div class="col-rt-2">
+            
+        </div>
+    </div>
+</div>
+
+<header class="ScriptHeader">
+    <div class="rt-container">
+    	<div class="col-rt-12">
+        	<div class="rt-heading">
+         
+            </div>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+     <div id="container">
+ 
+      <nav>
+        <ul>
+           
+            <li><a href="#">   ORTHOPAEDICS</a>
+            <!-- First Tier Drop Down -->
+            <ul>
+              <li><a href="http://127.0.0.1:8000/princ">PRINCIPLES OF ORTHOPAEDICS</a></li>
+              <li><a href="http://127.0.0.1:8000/boneandjoints">BONES AND JOINTS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/upp">UPPER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/low">LOWER LIMB</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/spin">SPINE AND VERTEBRA</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/age">PAEDIATRIC AGE GROUP</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/bonecysts">BONE CYSTS AND TUMOURS</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:8000/mis/">MISCELLANEOUS</a></li>
+            </ul>        
+            </li>
+         
+    </nav>
+  
+    <div class="sidenav">
+    
+        <a class="sidenav-link dropdown-toggle" href="#" id="sidenavDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            SPINE AND VERTEBRA
+        </a></style>
+ <ul>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/slipp"> Slipped Disc</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/spon">Spondylolisthesis</a></li>
+
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/clinical">Clinical Feature Of TB Spine</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/gibbus">Gibbus</a></li>
+    <li><a class="dropdown-item" href="http://127.0.0.1:8000/bifida">Spine Bifida</a></li>
+    
+  
+                              </ul>
+  
+        
+  
+         
+
+
+
+
+                            </div>
+
+
+                          </body>
+                          </html>
+  
+
+
+<style type="text/css">
+  p{
+  
+    text-align:justify;
+  line-height:40px;
+    font-size: 20px;
+    font-family: TimesNewRoman;
+    
+   
+  }
+  
+  h3{
+    
+      color:black;
+      text-align: left; 
+      font-size: 30px;
+      font-family: TimesNewRoman;
+     
+     
+    }
+  h2{
+      color:black;
+      text-align: center; 
+      font-size: 40px;
+      background-color: white;
+      font-family: TimesNewRoman;
+  }
+</style>
+<body>
+
+  <h2>TB spine/ Pott's disease</h2>
+  <div="img">
+        
+        
+  <center><img src="https://image.slidesharecdn.com/tbspine-171118150358/95/tb-spine-12-1024.jpg?cb=1511017543" width="300" height="300"></center>
+</div>
+  <p>Bone is the 2nd most common site of TB (after lung) and the spine is the 
+commonest site of bone TB; the dorso-lumbar spine being the one affected most 
+frequently. </p>
+<p>Tuberculous spondylitis, also known as Pott disease, refers to vertebral body osteomyelitis and intervertebral discitis from tuberculosis (TB). The spine is the most frequent location of musculoskeletal tuberculosis, and commonly related symptoms are back pain and lower limb weakness/paraplegia.</p>
+<p>Tuberculous spondylitis is one of the more common infections of spine in countries where TB is prevalent. Unfortunately, the incidence of tuberculous spondylitis, as with other forms of TB, is on the rise, due to new multiple drug resistant strains.
+
+  Discitis and/or osteomyelitis comprise approximately 50% of all musculoskeletal tuberculosis, and usually affects the lower thoracic and upper lumbar levels of the spine</p>
+<p>Source of infection: </p>
+<p>TB of the spine is always secondary. The bacteria reach the spine via the 
+hematogenous route, from the lungs or lymph nodes.</p>
+<p>1. Paradiscal type (98%): </p>
+<p>Lower ½ of one vertebra + Upper ½ of adjacent vertebra + Intervening disc 
+are involved (all have a common blood supply). </p>
+<p>2. Central type: </p>
+<p>Body of a single vertebra is affected, leading to early collapse of the 
+weakened vertebra. </p>
+
+<p>3. Anterior type: </p>
+<p>Infection is localised to the anterior part of the vertebral body, involving 
+anterior longitudinal ligaments. </p>
+<p>4. Posterior type: </p>
+<p>Posterior complex of the vertebra [pedicle, lamina, spinous process and 
+transverse process] is affected. </p>
+<p>Clinical features: </p>
+<p> Back pain: Commonest symptom </p>
+<p> Radicular pain </p>
+<p> Stiffness: Earliest symptom </p>
+<p> Cold abscess: May present as a para-vertebral swelling </p>
+<p> Gibbus: Gradually increasing prominence of the spine </p>
+<p> Tenderness over spinous process </p>
+<p> Paraplegia: Most serious complication in neglected cases</p>
+<p>I. Ankle/ patellar clonus: Earliest sign </p>
+<p>II. Spastic paraplegia (early) -> Flaccid paraplegia (late). </p>
+Radiological changes: </p>
+<p> Early changes:</p>
+<p>I. Reduction of disc space: Earliest change </p>
+<p>II. Localized osteopenia. </p>
+<p> Late changes: </p>
+<p>I. Collapse of vertebral body: Seen in central type</p> 
+<p>II. Aneurysmal sign: Sometimes seen in anterior type </p>
+<p>III. Evidence of cold abscess: </p>
+<p> Paravertebral abscess: Seen in Paradiscal type </p>
+<p> Retropharyngeal abscess: Seen in TB cervical spine </p>
+<p> Psoas abscess: Seen in dorso-lumbar/ lumbar TB </p>
+<p>Other diagnostic modality: </p>
+<p>1. CT scan: May detect a small abscess undetected by standard X-Ray </p>
+<p>2. MRI spine </p>
+<p>3. Definitive diagnosis is by biopsy and culture. </p>
+
+<h3>Treatment: </h3>
+<p>o Conservative management: </p>
+<p>o This consists of providing rest to the spine during the acute phase, 
+followed by guarded mobilisation. </p>
+<p>o High protein diet </p>
+<p>o Control of infection by prompt initiation of anti-tubercular 
+chemotherapy. Start with HRZE for 3 months. </p>
+<p>o Operative management: </p>
+<p>o Cold abscess: Aspiration and evacuation </p>
+<p>o Indications of surgery: </p>
+<p>I. Patients not responding to conservative management </p>
+<p>II. Patients with neurological complications/ Pott's paraplegia</p>
+<p>III. Recurrence of the disease </p>
+<p>IV. Doubtful diagnosis. </p>
+<p>o Surgical procedures of choice: Anterolateral decompression or Anterior 
+decompression.</p>
+</body>
+{% endblock %}
