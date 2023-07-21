@@ -1,0 +1,9 @@
+body{
+    font-family: verdana;
+}
+header,footer{
+    position: absolute;
+    background-color: #000;
+    width:100%;
+}
+  
